@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/libs/settings/wcm/designs/default"
+        cq:lastModified="{Date}2019-10-14T10:55:22.080-06:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/workflow/templates/model"
+        jcr:description="DPSS Content Review Process. Author initiates workflow process for Section Head Approval, ADA Compliance Approval, and Communications Approval. Once content is approved by all parties, the content is activated. "
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DPSS Content Review for Publication"
+        sling:resourceType="cq/workflow/components/pages/model"
+        multiResourceSupport="true"
+        workflowStages="[Content Authoring,Section Head,ADA Compliance,Communications,Activate Page/Asset]">
+        <flow
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <dynamic_participant
+                jcr:created="{Date}2019-10-08T16:23:13.346-06:00"
+                jcr:createdBy="admin"
+                jcr:description="The initiator of the Content Review for Publication Workflow is assigned the workitem.  They are assigned by default to author and update content prior to publication. Once complete, the initiator should complete their workitem, moving the workflow status to the Section Head review stage. "
+                jcr:lastModified="{Date}2019-10-09T21:07:11.117-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Author Content"
+                sling:resourceType="cq/workflow/components/model/dynamic_participant">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    DO_NOTIFY="true"
+                    DYNAMIC_PARTICIPANT="/libs/workflow/scripts/initiator-participant-chooser.ecma"
+                    workflowStage="Content Authoring"/>
+            </dynamic_participant>
+            <dynamic_participant_1936469368
+                jcr:created="{Date}2019-10-07T14:44:51.565-06:00"
+                jcr:createdBy="admin"
+                jcr:description="The Section Head user/group is responsible for reviewing the content authored on the work item. The section head group has been assigned based on the page properties. If no section head has been set on the page under workflow, the page's ancestors are traversed for the property. Otherwise, administrator will be assigned. "
+                jcr:lastModified="{Date}2019-10-09T13:21:31.171-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Section Head Approval"
+                sling:resourceType="cq/workflow/components/model/dynamic_participant">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    DO_NOTIFY="true"
+                    DYNAMIC_PARTICIPANT="com.adobe.aem.lacounty.dpss.core.workflow.impl.process.SectionHeadParticipantStepChooser"
+                    workflowStage="Section Head"/>
+            </dynamic_participant_1936469368>
+            <or
+                jcr:created="{Date}2019-10-09T13:14:04.988-06:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-10-09T18:16:08.764-06:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Section Head Review"
+                sling:resourceType="cq/workflow/components/model/or"
+                branches="2"
+                branchName1="Approve"
+                branchName2="Deny"
+                branchOrder="[0,1]"
+                default1="true"
+                orSplit="true">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/flow/components/parsys">
+                    <participant_copy_cop
+                        jcr:created="{Date}2019-10-07T14:29:18.055-06:00"
+                        jcr:createdBy="admin"
+                        jcr:description="A member of the ADA Compliance group is responsible for reviewing the content authored in the work item. "
+                        jcr:lastModified="{Date}2019-10-09T18:13:17.929-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="ADA Compliance Review"
+                        sling:resourceType="cq/workflow/components/model/participant">
+                        <metaData
+                            jcr:primaryType="nt:unstructured"
+                            DO_NOTIFY="true"
+                            PARTICIPANT=""
+                            workflowStage="ADA Compliance"/>
+                    </participant_copy_cop>
+                    <or
+                        jcr:created="{Date}2019-10-09T13:14:20.502-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-10-09T18:16:20.622-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="ADA Compliance Review"
+                        sling:resourceType="cq/workflow/components/model/or"
+                        branches="2"
+                        branchName1="Approve"
+                        branchName2="Deny"
+                        branchOrder="[0,1]"
+                        default1="true"
+                        orSplit="true">
+                        <_x0031_
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="cq/flow/components/parsys">
+                            <participant_copy
+                                jcr:created="{Date}2019-10-07T14:29:18.055-06:00"
+                                jcr:createdBy="admin"
+                                jcr:description="A member of the Communications group is responsible for reviewing the content authored in the work item. "
+                                jcr:lastModified="{Date}2019-10-09T18:13:32.957-06:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Communications Review"
+                                sling:resourceType="cq/workflow/components/model/participant">
+                                <metaData
+                                    jcr:primaryType="nt:unstructured"
+                                    DO_NOTIFY="true"
+                                    PARTICIPANT=""
+                                    workflowStage="Communications"/>
+                            </participant_copy>
+                            <or
+                                jcr:created="{Date}2019-10-07T14:54:25.531-06:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-10-09T18:17:01.227-06:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Communications Review"
+                                sling:resourceType="cq/workflow/components/model/or"
+                                branches="2"
+                                branchName1="Approve"
+                                branchName2="Deny"
+                                branchOrder="[0,1]"
+                                default1="true"
+                                orSplit="true">
+                                <_x0031_
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="cq/flow/components/parsys">
+                                    <process
+                                        jcr:created="{Date}2019-10-09T20:42:36.395-06:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="Activates the page as well as any referenced assets, tags, or configurations."
+                                        jcr:lastModified="{Date}2019-10-14T10:55:22.072-06:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Activate Page with References"
+                                        sling:resourceType="cq/workflow/components/model/process">
+                                        <metaData
+                                            jcr:primaryType="nt:unstructured"
+                                            PROCESS="com.adobe.aem.lacounty.dpss.core.workflow.adobe.support.replication.impl.ReplicatePageProcess"
+                                            PROCESS_ARGS="replicationType=ACTIVATE"
+                                            PROCESS_AUTO_ADVANCE="true"
+                                            workflowStage="Activate Page/Asset"/>
+                                    </process>
+                                    <process_198279171
+                                        jcr:created="{Date}2019-10-10T16:37:57.222-06:00"
+                                        jcr:createdBy="admin"
+                                        jcr:lastModified="{Date}2019-10-10T16:38:37.458-06:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Set Replicated By Property to Workflow Initiator"
+                                        sling:resourceType="cq/workflow/components/model/process">
+                                        <metaData
+                                            jcr:primaryType="nt:unstructured"
+                                            PROCESS="com.adobe.acs.commons.replication.status.impl.ReplicatedByWorkflowProcess"
+                                            PROCESS_AUTO_ADVANCE="true"
+                                            workflowStage="Activate Page/Asset"/>
+                                    </process_198279171>
+                                </_x0031_>
+                                <_x0032_
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="cq/flow/components/parsys">
+                                    <goto_1689275184
+                                        jcr:created="{Date}2019-10-07T14:26:44.199-06:00"
+                                        jcr:createdBy="admin"
+                                        jcr:description="Goto Step"
+                                        jcr:lastModified="{Date}2019-10-09T13:23:34.515-06:00"
+                                        jcr:lastModifiedBy="admin"
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Send back for revision"
+                                        sling:resourceType="cq/workflow/components/model/goto">
+                                        <metaData
+                                            jcr:primaryType="nt:unstructured"
+                                            PROCESS="com.adobe.granite.workflow.core.process.GotoProcess"
+                                            PROCESS_AUTO_ADVANCE="false"
+                                            TARGET_NODE_PATH="/conf/global/settings/workflow/models/content-review-for-publication/jcr:content/flow/dynamic_participant"
+                                            workflowStage="Activate Page/Asset"/>
+                                    </goto_1689275184>
+                                </_x0032_>
+                            </or>
+                        </_x0031_>
+                        <_x0032_
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="cq/flow/components/parsys">
+                            <goto_228654690
+                                jcr:created="{Date}2019-10-07T14:26:39.915-06:00"
+                                jcr:createdBy="admin"
+                                jcr:description="Goto Step"
+                                jcr:lastModified="{Date}2019-10-09T18:13:27.266-06:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Send Back for Revision"
+                                sling:resourceType="cq/workflow/components/model/goto">
+                                <metaData
+                                    jcr:primaryType="nt:unstructured"
+                                    PROCESS="com.adobe.granite.workflow.core.process.GotoProcess"
+                                    PROCESS_AUTO_ADVANCE="false"
+                                    TARGET_NODE_PATH="/conf/global/settings/workflow/models/content-review-for-publication/jcr:content/flow/dynamic_participant"
+                                    workflowStage="Communications"/>
+                            </goto_228654690>
+                        </_x0032_>
+                    </or>
+                </_x0031_>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="cq/flow/components/parsys">
+                    <goto
+                        jcr:created="{Date}2019-10-07T14:26:36.146-06:00"
+                        jcr:createdBy="admin"
+                        jcr:description="Goto Step"
+                        jcr:lastModified="{Date}2019-10-09T18:13:12.292-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Send back for Revision"
+                        sling:resourceType="cq/workflow/components/model/goto">
+                        <metaData
+                            jcr:primaryType="nt:unstructured"
+                            PROCESS="com.adobe.granite.workflow.core.process.GotoProcess"
+                            PROCESS_AUTO_ADVANCE="false"
+                            TARGET_NODE_PATH="/conf/global/settings/workflow/models/content-review-for-publication/jcr:content/flow/dynamic_participant"
+                            workflowStage="ADA Compliance"/>
+                    </goto>
+                </_x0032_>
+            </or>
+        </flow>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

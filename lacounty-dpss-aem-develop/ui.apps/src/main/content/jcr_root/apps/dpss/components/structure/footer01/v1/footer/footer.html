@@ -1,0 +1,101 @@
+<sly data-sly-use.footer="com.adobe.aem.lacounty.dpss.core.models.FooterModel"/>
+
+
+<footer>
+    <div class="container">
+        <div class="footer__container">
+            <div class="footer__item">
+                <div class="footer__title">Contact</div>
+                <div class="footer__subTitle">${footer.title}</div>
+                <div class="footer__column">
+                    <ul class="footer__list-container">
+                        <li class="footer__list">
+                            <i class="fa fa-building-o footer__icon" aria-hidden="true"></i>
+                            <a href="#" class="footer__link">${footer.address}</a>
+                        </li>
+                        <li class="footer__list">
+                            <i class="fa fa-phone footer__icon" aria-hidden="true"></i>
+                            <a href="tel:+15629088400" class="footer__link">${footer.phone}</a>
+                        </li>
+                        <li class="footer__list">
+                            <li class="fa fa-envelope-o footer__icon" aria-hidden="true"></i>
+                            <a href="mailto:webmaster@dpss.gov" class="footer__link">${footer.email}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+             <div class="footer__item">
+                <div class="footer__title">Bureaus Links</div>
+                <div class="footer__column">
+                    <ul data-sly-list.item="${footer.bureausLinks}" class="footer__list-container">
+                        <li class="footer__list">
+                            <a href="${item.blinkURL @ context='uri'}" class="footer__link">${item.Blinktext}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__item">
+                <div class="footer__title">External Links</div>
+                <div class="footer__column">
+                    <ul data-sly-list.item="${footer.externalLinks}" class="footer__list-container">
+                        <li class="footer__list">
+                            <a href="${item.linkURL @ context='uri'}" class="footer__link">${item.linkText}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__item">
+                <div class="footer__title">Policies</div>
+                <div class="footer__column">
+                    <ul data-sly-list.item="${footer.policyLinks}" class="footer__list-container">
+                        <li class="footer__list">
+                            <a href="${item.plinkURL @ context='uri'}" class="footer__link">${item.Plinktext}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer__horizontal-line"></hr>
+
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <div class="footer__logo">
+                     <img src="${footer.logo}">
+                </div>
+                <div class="footer__copyright-text">
+                    <p class="tagline__text">${footer.tagline}</p>
+                    <p class="copyright__text">${footer.copyrights}</p>
+                    <p class="reserved__text">${footer.reserved}</p>
+                </div>
+            </div>
+            <div class="footer__social-icons">
+                <ul class="social-icons__list">
+                    <li class="icons__list">
+                        <a href="#" class="icon__link">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="icons__list">
+                        <a href="#" class="icon__link">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="icons__list">
+                        <a href="#" class="icon__link">
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="icons__list">
+                        <a href="#" class="icon__link">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

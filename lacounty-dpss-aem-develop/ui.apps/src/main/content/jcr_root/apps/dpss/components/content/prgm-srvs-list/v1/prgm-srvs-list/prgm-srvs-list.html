@@ -1,0 +1,22 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+	data-emptytext="All Programs and Services"></div>
+<!-- Component specific js files included-->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.js @ categories='dpss.site.programe.service.list'}"/>
+</sly>
+<sly data-sly-use.programsServicesListModel="com.adobe.aem.lacounty.dpss.core.models.ProgramsServicesListModel"/>
+<div class="container gutter pgrms-srvs-list" id="${currentNode.parent.parent.name}-${currentNode.parent.name}-${currentNode.name}" data-listrootpath="${programsServicesListModel.pgmsSrvsRootPage}" data-sly-test="${programsServicesListModel.pgmsSrvsRootPage}">
+    <div class="aem-Grid aem-Grid--12">
+        <div class="gutterLR15 prgms__srvs-list" id="prgms-srvs-left-list">
+               <!-- Content injected via ajax call-->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+

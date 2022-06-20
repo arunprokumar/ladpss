@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" 
+xmlns:nt="http://www.jcp.org/jcr/nt/1.0" 
+    jcr:primaryType="oak:Unstructured"
+            async="[async,nrt]"
+            compatVersion="{Long}2"
+            evaluatePathRestrictions="{Boolean}true"
+            includedPaths="[/en]"
+            name="DPSS_English_Index"
+            queryPaths="[/content/dpss/en]"
+            forceReindex="{Boolean}true"
+            seed="{Long}-3065353756789618090"
+            reindex="{Boolean}false"
+            reindexCount="{Long}1"
+            type="lucene">
+            <aggregates jcr:primaryType="nt:unstructured">
+                <cq:Page jcr:primaryType="nt:unstructured">
+                    <include0
+                        jcr:primaryType="nt:unstructured"
+                        path="jcr:content"
+                        relativeNode="{Boolean}true"/>
+                </cq:Page>
+                <nt:file jcr:primaryType="nt:unstructured">
+                    <include0
+                        jcr:primaryType="nt:unstructured"
+                        path="jcr:content"/>
+                </nt:file>
+                <cq:PageContent jcr:primaryType="nt:unstructured">
+                    <include0
+                        jcr:primaryType="nt:unstructured"
+                        path="*"/>
+                    <include1
+                        jcr:primaryType="nt:unstructured"
+                        path="*/*"/>
+                    <include2
+                        jcr:primaryType="nt:unstructured"
+                        path="*/*/*"/>
+                    <include3
+                        jcr:primaryType="nt:unstructured"
+                        path="*/*/*/*"/>
+                </cq:PageContent>
+            </aggregates>
+            <analyzers jcr:primaryType="nt:unstructured">
+                <default jcr:primaryType="nt:unstructured">
+                    <tokenizer
+                        jcr:primaryType="nt:unstructured"
+                        name="Standard"/>
+                    <filters jcr:primaryType="nt:unstructured">
+                        <Synonym
+                            jcr:primaryType="nt:unstructured"
+                            format="solr"
+                            synonyms="en_synonyms.txt,en_dpss_acronyms.txt">
+                            <en_synonyms.txt/>
+                            <en_dpss_acronyms.txt/>
+                        </Synonym>
+                        <Stop
+                            jcr:primaryType="nt:unstructured"
+                            words="en_stopwords.txt">
+                            <en_stopwords.txt/>
+                        </Stop>
+                        <HunspellStem
+                            jcr:primaryType="nt:unstructured"
+                            affix="en_US.aff"
+                            dictionary="en_US.dic">
+                            <en_US.dic/>
+                            <en_US.aff/>
+                        </HunspellStem>
+                    </filters>
+                </default>
+            </analyzers>
+            <indexRules jcr:primaryType="nt:unstructured">
+                <cq:Page jcr:primaryType="nt:unstructured">
+                    <properties jcr:primaryType="nt:unstructured">
+                        <cqLastModified
+                            jcr:primaryType="nt:unstructured"
+                            name="jcr:content/cq:lastModified"
+                            ordered="{Boolean}true"
+                            propertyIndex="{Boolean}true"
+                            type="Date"/>
+                        <jcrTitle
+                            jcr:primaryType="nt:unstructured"
+                            name="jcr:content/jcr:title"
+                            nodeScopeIndex="{Boolean}true"
+                            propertyIndex="{Boolean}true"
+                            type="String"
+                            useInSpellcheck="{Boolean}true"
+                            useInSuggest="{Boolean}true"/>
+                        <pageTitle
+                            jcr:primaryType="nt:unstructured"
+                            name="jcr:content/pageTitle"
+                            nodeScopeIndex="{Boolean}true"
+                            propertyIndex="{Boolean}true"
+                            type="String"
+                            useInSpellcheck="{Boolean}true"
+                            useInSuggest="{Boolean}true"/>
+                        <navTitle
+                            jcr:primaryType="nt:unstructured"
+                            name="jcr:content/navTitle"
+                            nodeScopeIndex="{Boolean}true"
+                            propertyIndex="{Boolean}true"
+                            type="String"
+                            useInSpellcheck="{Boolean}true"
+                            useInSuggest="{Boolean}true"/>
+                        <nodeName
+                            jcr:primaryType="nt:unstructured"
+                            name=":nodeName"
+                            nodeScopeIndex="{Boolean}true"
+                            propertyIndex="{Boolean}true"
+                            type="String"
+                            useInSpellcheck="{Boolean}true"
+                            useInSuggest="{Boolean}true"/>
+                        <cqLastRolledoutBy
+                            jcr:primaryType="nt:unstructured"
+                            name="jcr:content/cq:lastRolledoutBy"
+                            propertyIndex="{Boolean}true"
+                            type="String"/>
+                        <location
+                            jcr:primaryType="nt:unstructured"
+                            name="jcr:content/location"
+                            notNullCheckEnabled="{Boolean}true"
+                            propertyIndex="{Boolean}true"
+                            type="String"/>
+                    </properties>
+                </cq:Page>
+            </indexRules>
+</jcr:root>

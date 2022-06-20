@@ -1,0 +1,56 @@
+<sly data-sly-use.howToApplyCardModel="com.adobe.aem.lacounty.dpss.core.models.HowToApplyCardModel"/>
+<div class="apply__content" id="${currentNode.parent.parent.name}-${currentNode.parent.name}-${currentNode.name}">
+     <!-- Apply online section -->
+    <div class="gutterLR30">
+        <div class="offsetB15 heading--small"> <span class="fa fa-desktop offsetR15"></span> ${howToApplyCardModel.applyOnlineTitle ? howToApplyCardModel.applyOnlineTitle : 'applyOnlineTitle' @ i18n}</div>
+        <p data-sly-test=${howToApplyCardModel.applyOnlineDescription}>${howToApplyCardModel.applyOnlineDescription @context='html'}</p>
+        <p data-sly-test=${!howToApplyCardModel.applyOnlineDescription}>${'applyOnlineDescription' @ i18n}</p>
+        <div class="card--button icon__bg--red">
+            <button  target="${howToApplyCardModel.applyOnlineOpenInNewTab ? '_blank':''}" aria-label="${properties.iconAriaLabel}" onclick="location.href='${howToApplyCardModel.applyOnlineLink ? howToApplyCardModel.applyOnlineLink : '#' @ context='uri'}';_satellite.track('Apply Click','Apply to your benefits now')">
+                <span class="list__view--icon ${properties.fontAwesomeKey @ context='styleString'}"></span>
+                <small>${howToApplyCardModel.applyOnlineButtonText ? howToApplyCardModel.applyOnlineButtonText : 'applyOnlineButtonText' @ i18n}</small>
+                <span class="fa fa-caret-right gutterAll15"></span>
+            </button>
+        </div>
+    </div>
+    <!-- Apply online section -->
+    <hr />
+    <!-- Apply by phone section -->
+    <div class="gutterLR30">
+        <div class="offsetB15 heading--small"><span class="fa fa-phone offsetR15"></span>${howToApplyCardModel.applyByPhoneTitle ? howToApplyCardModel.applyByPhoneTitle : 'applyByPhoneTitle' @ i18n}</div>
+        <div class="offsetB15" data-sly-test=${howToApplyCardModel.applyByPhoneDescription}>${howToApplyCardModel.applyByPhoneDescription @context='html'}</div>
+        <div class="offsetB15" data-sly-test=${!howToApplyCardModel.applyByPhoneDescription}>${'applyByPhoneDescription' @ i18n}</div>
+        <div class="card--button icon__bg--green">
+            <button onclick="_satellite.track('Call Click','Call');location.href='${howToApplyCardModel.applyByPhoneLink ? howToApplyCardModel.applyByPhoneLink : '#' @ context='uri'}'">
+                <span class="list__view--icon fa fa-phone"></span>
+                <small>${howToApplyCardModel.applyByPhoneButtonText ? howToApplyCardModel.applyByPhoneButtonText : 'applyByPhoneButtonText' @ i18n}</small>
+            </button>
+        </div>
+    </div>
+    <!-- Apply by phone section -->
+    <!-- Apply in person section -->
+    <hr />
+    <div class="gutterLR30">
+        <div class="offsetB15 heading--small" data-sly-test=${howToApplyCardModel.applyInPersonTitle}><span class="fa fa-user offsetR15"></span>${howToApplyCardModel.applyInPersonTitle @ context='html'}</div>
+        <div class="offsetB15 heading--small" data-sly-test=${!howToApplyCardModel.applyInPersonTitle}><span class="fa fa-user offsetR15"></span>${'applyInPersonTitle' @ i18n}</div>
+        <div class="offsetB15" data-sly-test=${howToApplyCardModel.applyInPersonDescription}>${howToApplyCardModel.applyInPersonDescription @ context='html'}</div>
+        <div class="offsetB15" data-sly-test=${!howToApplyCardModel.applyInPersonDescription}>${'applyInPersonDescription' @ i18n}</div>
+        <label for="facilities" data-sly-test=${howToApplyCardModel.applyInPersonFindSrvsLabel}>${howToApplyCardModel.applyInPersonFindSrvsLabel @ context='html'}
+         <form action="${howToApplyCardModel.searchAPIEndPoint}" target="_blank" method="get" id="facilities">
+        <input type="search" name="near" id="near" placeholder="${'serviceLocatorPlaceHolder' @ i18n}">
+        <span class="fa fa-search"></span>
+        <input type="hidden" name="find" id="find" value="DPSS Offices">
+         <button type="submit" tabindex="-1" class="is-vishidden" aria-hidden="true">${'search' @ i18n}</button>
+        </form>
+        </label>
+        <label for="facilities" data-sly-test=${!howToApplyCardModel.applyInPersonFindSrvsLabel}>${'applyInPersonFindSrvsLabel' @ i18n}
+         <form action="${howToApplyCardModel.searchAPIEndPoint}" target="_blank" method="get" id="facilities">
+        <input type="search" name="near" id="near" placeholder="${'serviceLocatorPlaceHolder' @ i18n}">
+        <span class="fa fa-search"></span>
+        <input type="hidden" name="find" id="find" value="DPSS Offices">
+         <button type="submit" tabindex="-1" class="is-vishidden" aria-hidden="true">${'search' @ i18n}</button>
+        </form>
+        </label>
+    </div>
+    <!-- Apply in person section -->
+</div>

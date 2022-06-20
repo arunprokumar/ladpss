@@ -1,0 +1,35 @@
+<!--/*
+*  ***********************************************************************
+*  Adobe CONFIDENTIAL
+*  ___________________
+*
+*  Copyright 2019 Adobe
+*  All Rights Reserved.
+*
+*  NOTICE:  All information contained herein is, and remains the property
+*  of Adobe and its suppliers, if any. The intellectual and
+*  technical concepts contained herein are proprietary to Adobe
+*  and its suppliers and are protected by trade secret or copyright law.
+*  Dissemination of this information or reproduction of this material
+*  is strictly forbidden unless prior written permission is obtained
+*  from Adobe.
+*  ***********************************************************************
+*/-->
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+	data-emptytext="Homepage Newsfeed"></div>
+<sly data-sly-use.nfObject="com.adobe.aem.lacounty.dpss.core.models.NewsfeedModel"/>
+<div class="news__content-carousel" id="${currentNode.parent.parent.name}-${currentNode.parent.name}-${currentNode.name}"
+ data-listpath="${nfObject.listPath}" data-sly-test="${nfObject.listPath}" style="background-image:url(${nfObject.bgImagePath @context='styleString'})">
+	<div class="container">
+		<div class="news__heading align-center heading--large" data-sly-test="${nfObject.title}">
+			<a href="${nfObject.viewAllLink @ context='uri'}" title="${nfObject.title @ context='attribute'}" >${nfObject.title @ context='html'}</a>
+		</div>
+		<div class="news__list slider-wrapper">
+
+		</div>
+		<div class="news__view-all align-center" data-sly-test="${nfObject.viewAllLink}">
+			<a href="${nfObject.viewAllLink @ context='uri'}" aria-label="${nfObject.viewAllLabel @ context='attribute'}"
+				class="color--white text" target="${nfObject.openInNewTab @ context='attribute'}">${nfObject.viewAllLabel @ context='html'}</a>
+		</div>
+	</div>
+</div>

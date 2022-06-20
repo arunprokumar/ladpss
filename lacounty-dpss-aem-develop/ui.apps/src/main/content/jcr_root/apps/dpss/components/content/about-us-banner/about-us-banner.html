@@ -1,0 +1,25 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"	data-emptytext="About Us Banner"></div>
+<sly data-sly-use.banner="com.adobe.aem.lacounty.dpss.core.models.AboutUsBannerModel" />
+<div class="aboutus__banner align-left width--full" id="${currentNode.parent.parent.name}-${currentNode.parent.name}-${currentNode.name}" style="background-image:url(${banner.bgImagePath @context='styleString'})">
+	<div class="container">
+		<h1 class="banner__title color--white">${banner.title @ context='html'}</h1>
+		<p class="program__para--text" data-sly-test="${banner.subText}">${banner.subText @ context='html'}</p>
+		<ul class="self-service__list">
+			<li	class="self-service__item self-service__item--bottom self-service__item--red gutter" data-sly-test="${banner.ybnItemTarget}">
+				<a href="${banner.ybnItemTarget @ context='uri'}"
+						class="self-service__link" title="${banner.ybnItemText @ context='attribute'}" target="${banner.ybnItemAction @ context='attribute'}">
+					<img src="${banner.ybnLinkImage @ context='attribute'}" class="img--small" alt=" ">
+					<span>${banner.ybnItemText @ context='attribute'}</span>
+				</a>
+			</li>
+			<sly data-sly-list="${banner.links}" data-sly-test="${banner.links && banner.links.size > 0}">
+			<li class="self-service__item self-service__item--bottom" data-sly-test="${item.linkUrl}">
+				<a href="${item.linkUrl @ context='uri'}" class="self-service__link" title="${item.linkText @ context='attribute'}"
+					target="${item.openInNewTab @ context='attribute'}">
+					<span class="self-service__img ${item.linkIcon @ context='styleString'}"></span>
+					<span>${item.linkText @ context='html'}</span></a>
+			</li>
+			</sly>
+		</ul>
+	</div>
+</div>

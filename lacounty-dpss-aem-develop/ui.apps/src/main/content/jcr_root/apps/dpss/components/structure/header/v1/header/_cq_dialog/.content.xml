@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    granite:class="cmp-form-textfield-editDialog"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Header"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[dpss.components.structure.header,cq.xf.editor.picker.validator]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:orderBefore="customAttributes"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <mobilemenu
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Menu label for view port other than desktop"
+                                                fieldLabel="Menu label"
+                                                name="./menulabel"
+                                                value="Menu"/>
+                                            <searchlabel
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Search filed place holder"
+                                                fieldLabel="Search place holder"
+                                                name="./searchPlaceholder"
+                                                value="Search"/>
+                                            <resultpage
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                fieldDescription="Search result page path."
+                                                fieldLabel="Search Result Page"
+                                                name="./resultpage"/>
+                                            <logotxt
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Text to be displayed on top of logo"
+                                                fieldLabel="Logo Text"
+                                                name="./logoTxt"
+                                                value="LACOUNTY.GOV"/>
+                                            <logotextlink
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/coral/common/form/pagefield"
+                                                emptyText="Logo Text Link"
+                                                fieldDescription="Logo text redirection link"
+                                                fieldLabel="Logo Text URL"
+                                                name="./logoTextLink"
+                                                rootPath="/content"/>
+                                            <logo
+                                                granite:class="dpss-header-author-logo"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                allowUpload="{Boolean}false"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fieldLabel="Logo image"
+                                                fileNameParameter="./fileName"
+                                                fileReferenceParameter="./logo"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
+                                                multiple="{Boolean}false"
+                                                name="./file"
+                                                title="Upload Image Asset"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                            <logolink
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/coral/common/form/pagefield"
+                                                emptyText="Logo Link"
+                                                fieldDescription="Logo redirection link"
+                                                fieldLabel="Logo URL"
+                                                name="./logoLink"
+                                                rootPath="/content"/>
+                                            <alttxt
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Alternate text for logo"
+                                                fieldLabel="Alternative Text"
+                                                name="./logoAltTxt"
+                                                value="DPSS Logo"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                    <links
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Link &amp; Actions"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <actions
+                                                granite:class="header-validation"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./links">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <text
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                            emptyText="Text"
+                                                            fieldDescription="Link label to be displayed"
+                                                            fieldLabel="Link Text"
+                                                            name="text"/>
+                                                        <link
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="cq/gui/components/coral/common/form/pagefield"
+                                                            emptyText="Link"
+                                                            fieldDescription="Target link"
+                                                            fieldLabel="Link Url"
+                                                            name="link"
+                                                            rootPath="/content"/>
+                                                        <openin
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                            fieldDescription="Check to open the links in new tab"
+                                                            name="openInNewTab"
+                                                            text="Open in new tab"
+                                                            value="{Boolean}true"/>
+                                                    </items>
+                                                </field>
+                                            </actions>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </links>
+                    <lang-selector
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Language Selector"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <infotext
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Select Language"
+                                                fieldDescription="Language selector place holder text"
+                                                fieldLabel="Language List Place holder"
+                                                name="./langListInfoText"/>
+                                            <actions
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./languages">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <text
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                            emptyText="Language Name"
+                                                            fieldDescription="Text to be displayed in language selector"
+                                                            fieldLabel="Language Name"
+                                                            name="langName"/>
+                                                        <link
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="cq/gui/components/coral/common/form/pagefield"
+                                                            emptyText="Lang Home page path"
+                                                            fieldDescription="Language specific home page path "
+                                                            fieldLabel="Language Home page path"
+                                                            name="langHomePagePath"
+                                                            rootPath="/content/dpss"/>
+                                                    </items>
+                                                </field>
+                                            </actions>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </lang-selector>
+                    <alert
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Alert &amp; Notification"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <flag
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                fieldDescription="Check to enable alert or notification"
+                                                name="./isAlertNotificationOn"
+                                                text="Enable alert or notification"
+                                                value="{Boolean}true"/>
+                                            <fragmentpath
+                                                granite:id="xfPicker"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/experience-fragments/editor/components/xffield"
+                                                fieldDescription="Choose the path to alert or notification experience fragment"
+                                                fieldLabel="Path to alert or notification"
+                                                filter="folderOrVariant"
+                                                name="./alertNotificationExfPath"
+                                                propertyFilter="cq:xfShowInEditor"
+                                                rootPath="/content/experience-fragments/dpss"
+                                                variant="web"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                        <granite:rendercondition
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/foundation/renderconditions/simple"
+                            expression="${granite:containsIgnoreCase(requestPathInfo.suffix, '/en/')}"/>
+                    </alert>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

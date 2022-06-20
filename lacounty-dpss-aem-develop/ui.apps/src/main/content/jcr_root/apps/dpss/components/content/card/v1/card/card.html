@@ -1,0 +1,27 @@
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+	data-emptytext="Card"></div>
+<sly data-sly-use.cardModel="com.adobe.aem.lacounty.dpss.core.models.CardModel"/>
+<div class="title__img__list" id="${currentNode.parent.parent.name}-${currentNode.parent.name}-${currentNode.name}">
+    <div data-sly-test="${cardModel.cardTitle}" class="offsetB15 heading--large">${cardModel.cardTitle @ context='html'}</div>
+    <div data-sly-test="${cardModel.cardImage}">
+        <picture class="news__img">
+         <source srcset="${cardModel.cardImage}" media="(min-width: 1046px)"><!-- DESKTOP --> 
+           <source srcset="${cardModel.cardTabletImage}" media="(min-width: 767px)"> <!-- TABLET -->
+           <img src="${cardModel.cardMobileImage}" alt="${cardModel.cardImageAltTxt}" /> <!-- MOBILE -->
+        </picture>
+    </div>
+    <div data-sly-test="${cardModel.description}" data-showmore="${cardModel.hideDescription.toString}" class="rte__content js-more-content">
+        ${cardModel.description @ context='html'}
+    </div>
+    <div data-sly-test="${cardModel.description}" class="showmore__border--btn is-hidden">
+    <span></span>
+    <button class="accordion-card__showmore-btn">
+        <small class="more-text">${cardModel.expandLabel}</small>
+        <small class="less-text is-hidden">${cardModel.collapseLabel}</small>
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </button>
+    <span></span>
+    </div>
+    <div data-sly-test="${cardModel.cardSubtitle}" class="heading--xsmall">${cardModel.cardSubtitle @ context='html'}</div>
+       <div data-sly-resource="${'buttonpar' @ resourceType='wcm/foundation/components/responsivegrid'}"></div>
+    </div>

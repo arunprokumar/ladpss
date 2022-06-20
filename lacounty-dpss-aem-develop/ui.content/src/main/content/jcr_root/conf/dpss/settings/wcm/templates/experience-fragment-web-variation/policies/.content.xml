@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="wcm/foundation/components/responsivegrid/content-default"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <responsivegrid
+                cq:policy="wcm/foundation/components/responsivegrid/content-default"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+            	<dpss jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <form jcr:primaryType="nt:unstructured">
+                            <container
+                                cq:policy="dpss/components/form/container/form-container"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <text
+                                cq:policy="dpss/components/form/text/policy_1569021210988"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <options
+                                cq:policy="dpss/components/form/options/policy_1569021646535"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <button
+                                cq:policy="dpss/components/form/button/policy_1569021393347"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </form>
+                        <content jcr:primaryType="nt:unstructured">
+                            <contentbanner
+                                cq:policy="dpss/components/content/contentbanner/cpbanner_policy"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <text
+	                            cq:policy="dpss/components/content/text/policy_text"
+	                            jcr:primaryType="nt:unstructured"
+	                            sling:resourceType="wcm/core/components/policies/mapping"/>
+	                        <button
+	                            cq:policy="dpss/components/content/button/policy_button"
+	                            jcr:primaryType="nt:unstructured"
+	                            sling:resourceType="wcm/core/components/policies/mapping"/>
+	                        <faq
+                                cq:policy="dpss/components/content/faq/policy_faq"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <container
+                                cq:policy="dpss/components/content/container/policy_section_container"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+							<carousel
+                                cq:policy="dpss/components/content/carousel/carousel-policy"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </content>
+                    </components>
+                </dpss>
+		    </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
