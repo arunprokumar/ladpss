@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<sly data-sly-use.basePage="${'com.adobe.aem.lacounty.dpss.core.models.BasePageModel' @ path=pageProperties.canonicalURL ? pageProperties.canonicalURL : currentPage.path}"/>
+<html data-sly-use.page="com.adobe.cq.wcm.core.components.models.Page" lang="${basePage.langAttribute}"
+      data-sly-use.head="head.html"
+      data-sly-use.footer="footer.html"
+      data-sly-use.redirect="redirect.html">
+    <head data-sly-call="${head.head @ page = page}"></head>
+    <body class="${page.cssClassNames}">
+    <div class="b-skip-navigation"><a href="">${'accessibilityMainContent' @ i18n}</a></div>
+        <sly data-sly-test.isRedirectPage="${page.redirectTarget && (wcmmode.edit || wcmmode.preview)}"
+             data-sly-call="${redirect.redirect @ redirectTarget = page.redirectTarget}"></sly>
+        <sly data-sly-test="${!isRedirectPage}">
+            <sly data-sly-include="body.socialmedia_begin.html"></sly>
+            <sly data-sly-include="body.html"></sly>
+            <sly data-sly-call="${footer.footer @ page = page}"></sly>
+            <sly data-sly-include="body.socialmedia_end.html"></sly>
+        </sly>
+    </body>
+</html>

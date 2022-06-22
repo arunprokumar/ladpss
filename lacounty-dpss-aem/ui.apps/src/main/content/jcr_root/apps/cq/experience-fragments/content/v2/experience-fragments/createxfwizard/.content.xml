@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <body jcr:primaryType="nt:unstructured">
+            <items jcr:primaryType="nt:unstructured">
+                <form jcr:primaryType="nt:unstructured">
+                    <successresponse jcr:primaryType="nt:unstructured"
+                    open="/bin/wcmcommand?cmd=open&amp;_charset_=utf-8&amp;path={Path}"/>
+                </form>
+            </items>
+        </body>
+    </jcr:content>
+</jcr:root>

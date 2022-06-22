@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Widget"
+    sling:resourceType="granite/ui/components/coral/foundation/authorizable/autocomplete"
+    fieldDescription="Select Section Head approver group for this page's content approval process. Will default to parent page selection if not set."
+    fieldLabel="Section Head Content Approver Group"
+    forceSelection="true"
+    name="./sectionHead"/>

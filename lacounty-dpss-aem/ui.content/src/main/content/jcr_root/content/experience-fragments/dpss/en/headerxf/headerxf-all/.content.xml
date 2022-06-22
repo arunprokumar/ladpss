@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-17T13:12:08.601+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/dpss/settings/wcm/templates/dpss-experience-fragment"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HeaderXF All"
+        sling:resourceType="dpss/components/content/xfpage">
+        <root
+            jcr:lastModified="{Date}2022-06-17T12:48:57.536+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="dpss/components/content/layoutContainer"
+            layout="responsiveGrid">
+            <text
+                jcr:created="{Date}2022-06-17T13:00:58.022+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-17T13:01:25.249+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>User Menu&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </text>
+            <text_1013231769
+                jcr:created="{Date}2022-06-17T13:01:01.925+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-17T13:01:37.539+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p style=&quot;text-align: right;&quot;>Bookmarks&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="8"/>
+                </cq:responsive>
+            </text_1013231769>
+            <text_1244134118
+                jcr:created="{Date}2022-06-17T13:11:28.108+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-17T13:11:42.210+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/text"
+                text="&lt;p>MegaMenu&lt;/p>&#xd;&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </text_1244134118>
+            <search
+                jcr:created="{Date}2022-06-17T13:11:47.052+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-17T13:11:47.052+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/search">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="6"/>
+                </cq:responsive>
+            </search>
+        </root>
+    </jcr:content>
+</jcr:root>

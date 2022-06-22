@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    launchConfigUrl="//assets.adobedtm.com/c70179af6cc1/689b8691df2c/launch-05006998cea1-development.min.js"
+    searchAPIEndPoint="https://locator.lacounty.gov/lac/Search?find=&amp;near=&amp;cat=826&amp;tag=&amp;loc=&amp;lat=&amp;lon=&amp;page=1&amp;pageSize=10"/>

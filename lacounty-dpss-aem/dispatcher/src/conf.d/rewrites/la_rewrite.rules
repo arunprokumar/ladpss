@@ -1,0 +1,59 @@
+## This ruleset forces https in the end users browser
+	RewriteCond %{HTTP:X-Forwarded-Proto} !https
+	RewriteCond %{REQUEST_URI} !^/dispatcher/invalidate.cache
+	RewriteCond %{HTTPS} !=on
+	RewriteRule (.*) https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
+    RewriteMap lamap "txt:/etc/httpd/conf.d/rewrites/la.map"
+    RewriteRule "^(/wps/.+?)/?!.*?" "${lamap:$1|/content/dpss/en.html}" [R=301,L]
+    RewriteMap lamap "txt:/etc/httpd/conf.d/rewrites/la.map"
+    RewriteRule "^(/wps/[^!]+?)/?$" "${lamap:$1|/content/dpss/en.html}" [R=301,L]
+    RewriteRule ^/index.html /content/dpss/en.html [PT]
+ # Rule for sitemap mapping
+    RewriteRule "/sitemap.xml" "/content/dpss/en.sitemap.xml" [PT,L]
+ # Rule for robots mapping
+    RewriteCond %{REQUEST_URI} ^/robots.txt
+    RewriteRule ^/(.*) /content/dpss/robots.txt [PT,NC,L]
+ #Rule for mapping root to en.html
+    RewriteCond %{REQUEST_URI} ^/$
+    RewriteRule ^/$ /content/dpss/en.html [PT,L]
+
+ #Rule for mapping short url to dispatcher cache 
+    RewriteCond %{REQUEST_URI} !^/apps
+    RewriteCond %{REQUEST_URI} !^/content
+    RewriteCond %{REQUEST_URI} !^/etc
+    RewriteCond %{REQUEST_URI} !^/libs
+    RewriteCond %{REQUEST_URI} !^/bin
+    RewriteCond %{REQUEST_URI} !^/tmp
+    RewriteCond %{REQUEST_URI} !^/var
+    RewriteCond %{REQUEST_URI} !/xf/
+    RewriteCond %{REQUEST_URI} !/_jcr_content/
+    RewriteRule (.*)$ /content/dpss$1 [PT,L,QSA]
+
+  #Rule for mapping experience fragments to shortened url
+    RewriteCond    %{REQUEST_URI} ^/xf/
+    RewriteRule    ^/xf/(.*)$ /content/experience-fragments/dpss/$1 [PT]
+
+
+  #Handle requests for pages ending with html
+    RewriteCond    %{REQUEST_URI} .*\.html$
+    RewriteCond    %{REQUEST_URI} ^/content/dpss/
+    RewriteRule   ^/content/dpss/(.*)$ $1 [R=301,QSA]
+
+ #Handle requests for images
+    RewriteCond  %{REQUEST_URI} !^/content
+    RewriteCond  %{REQUEST_URI} !^/static/
+    RewriteCond  %{REQUEST_URI} !/xf/
+    RewriteCond  %{REQUEST_URI} !^/etc
+    RewriteRule (.*)\.(png|jpg|jpeg|svg)$ /content/dpss$1.$2 [PT,QSA]
+    
+ #Handle DPSS Substitution URL for YBN Portal
+	AddOutputFilterByType INFLATE;SUBSTITUTE;DEFLATE  text/html
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE text/xml
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddOutputFilterByType DEFLATE text/javascript
+	AddOutputFilterByType DEFLATE text/css
+	Substitute s!https://www.yourbenefits.laclrs.org/ybn/Index.html/_wicket_interface/:1:globalNavPanel:langSpanishwitcher::ILinkListener::!https://www.yourbenefits.laclrs.org/ybn/Index.html/wicket:interface/:1:globalNavPanel:langSpanishwitcher::ILinkListener::!ni
+	Substitute s!(href|src|value)=\"https://www.yourbenefits.laclrs.org/ybn/Index.html/_wicket_interface/:1:globalNavPanel:langSpanishwitcher::ILinkListener::!$1=\"https://www.yourbenefits.laclrs.org/ybn/Index.html/wicket:interface/:1:globalNavPanel:langSpanishwitcher::ILinkListener::!i
+	Substitute s!/_wicket_interface/wicket:interface/!/!ni

@@ -1,0 +1,12 @@
+<!-- DPSS css/less files included-->
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='dpss.base'}"/>
+
+<!--/* Include Context Hub */-->
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+<!--/* Data layer JavaScript object: */-->
+<sly data-sly-include="analytics.html"/>
+
+<!-- CSRF files included-->
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='granite.csrf.standalone'}"/>

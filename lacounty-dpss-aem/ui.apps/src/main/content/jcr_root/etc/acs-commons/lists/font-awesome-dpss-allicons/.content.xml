@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/acs-commons"
+        cq:template="/apps/acs-commons/templates/utilities/genericlist"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="DPSS All Font Awesome Icons"
+        sling:resourceType="acs-commons/components/utilities/genericlist">
+        <list
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <item_2
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Facebook"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-facebook"/>
+            <item_3
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Twitter"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-twitter"/>
+            <item_4
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Youtube"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-youtube"/>
+            <item_5
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Instagram"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-instagram"/>
+            <item_6
+                jcr:primaryType="nt:unstructured"
+                jcr:title="bars"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-bars"/>
+            <item_12
+                jcr:primaryType="nt:unstructured"
+                jcr:title="money"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-money"/>
+            <item_13
+                jcr:primaryType="nt:unstructured"
+                jcr:title="medkit"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-medkit"/>
+            <item_14
+                jcr:primaryType="nt:unstructured"
+                jcr:title="cutlery"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-cutlery"/>
+            <item_15
+                jcr:primaryType="nt:unstructured"
+                jcr:title="home"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-home"/>
+            <item_17
+                jcr:primaryType="nt:unstructured"
+                jcr:title="child"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-child"/>
+            <item_18
+                jcr:primaryType="nt:unstructured"
+                jcr:title="wheelchair"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-wheelchair"/>
+            <item_19
+                jcr:primaryType="nt:unstructured"
+                jcr:title="star"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-star"/>
+            <item_20
+                jcr:primaryType="nt:unstructured"
+                jcr:title="balance-scale"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-balance-scale"/>
+            <item_21
+                jcr:primaryType="nt:unstructured"
+                jcr:title="map-marker"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-map-marker"/>
+            <item_22
+                jcr:primaryType="nt:unstructured"
+                jcr:title="handshake"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-handshake-o"/>
+            <item_24
+                jcr:primaryType="nt:unstructured"
+                jcr:title="file"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-file"/>
+            <item_25
+                jcr:primaryType="nt:unstructured"
+                jcr:title="phone"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-phone"/>
+            <item_27
+                jcr:primaryType="nt:unstructured"
+                jcr:title="info"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-info"/>
+            <item_28
+                jcr:primaryType="nt:unstructured"
+                jcr:title="heart"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-heart"/>
+            <item_29
+                jcr:primaryType="nt:unstructured"
+                jcr:title="question"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-question"/>
+            <item_30
+                jcr:primaryType="nt:unstructured"
+                jcr:title="commenting"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-commenting"/>
+            <item_31
+                jcr:primaryType="nt:unstructured"
+                jcr:title="list"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-list"/>
+            <item_32
+                jcr:primaryType="nt:unstructured"
+                jcr:title="YBN"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-key"/>
+            <item_34
+                jcr:primaryType="nt:unstructured"
+                jcr:title="user"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-user"/>
+            <item_35
+                jcr:primaryType="nt:unstructured"
+                jcr:title="desktop"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-desktop"/>
+            <item_36
+                jcr:primaryType="nt:unstructured"
+                jcr:title="envelope"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-envelope"/>
+            <item_37
+                jcr:primaryType="nt:unstructured"
+                jcr:title="calendar"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-calendar"/>
+            <item_38
+                jcr:primaryType="nt:unstructured"
+                jcr:title="briefcase"
+                sling:resourceType="acs-commons/components/utilities/genericlist/item"
+                value="fa fa-briefcase"/>
+        </list>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Feedback"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <title-text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Leave empty to use the 'Did you find what you were looking for?' as default value"
+                                                fieldLabel="Title text"
+                                                name="./titleText"/>
+                                            <yes-text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Button Label for Yes"
+                                                fieldLabel="Button Label for Yes"
+                                                name="./yesText"/>
+                                            <no-text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Button Label for No"
+                                                fieldLabel="Button Label for No"
+                                                name="./noText"/>
+                                            <yes-message
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Confirmation message on clicking YES"
+                                                fieldLabel="Confirmation message"
+                                                name="./yesMessage"/>
+                                            <no-message
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Feedback message on clicking no"
+                                                fieldLabel="Feedback Message"
+                                                name="./noMessage"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                    <yesNavigationLinks
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Configurable Links on YES"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <multifield
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./yeslink">
+                                    <items
+                                        jcr:primaryType="nt:unstructured"
+                                        name="./items">
+                                        <itemText
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Button Label"
+                                            name="./yesItemText"/>
+                                        <itemURL
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldDescription="Select URL to open link in Same/New Tab"
+                                            fieldLabel="Button URL"
+                                            name="./yesItemTarget"
+                                            rootPath="/content/dpss"/>
+                                        <itemAction
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            fieldLabel="Button Action"
+                                            name="./yesItemAction">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <option1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Open Button in new tab"
+                                                    value="_blank"/>
+                                                <option2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Open link in same tab"
+                                                    value="_self"/>
+                                            </items>
+                                        </itemAction>
+                                        <itemType
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            emptyText="Text"
+                                            fieldDescription="Select the type of button from list of all button types"
+                                            fieldLabel="Select Button type"
+                                            name="./yesFontAwesomeKey">
+                                            <datasource
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="dpss/components/utilities/genericlist/datasource"
+                                                path="/etc/acs-commons/lists/font-awesome-dpss-allicons"/>
+                                        </itemType>
+                                    </items>
+                                </field>
+                            </multifield>
+                        </items>
+                    </yesNavigationLinks>
+                    <noNavigationLinks
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Configurable Links on NO"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <multifield
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./nolink">
+                                    <items
+                                        jcr:primaryType="nt:unstructured"
+                                        name="./items">
+                                        <itemText
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Button Label"
+                                            name="./noItemText"/>
+                                        <itemURL
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldDescription="Select URL to open link in Same/New Tab"
+                                            fieldLabel="Button URL"
+                                            name="./noItemTarget"
+                                            rootPath="/content/dpss"/>
+                                        <itemAction
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            fieldLabel="Button Action"
+                                            name="./noItemAction">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <option1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Open link in new tab"
+                                                    value="_blank"/>
+                                                <option2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Open link in same tab"
+                                                    value="_self"/>
+                                            </items>
+                                        </itemAction>
+                                        <itemType
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            emptyText="Text"
+                                            fieldDescription="Select the type of button from list of all button types"
+                                            fieldLabel="Select Button Type"
+                                            name="./noFontAwesomeKey">
+                                            <datasource
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="dpss/components/utilities/genericlist/datasource"
+                                                path="/etc/acs-commons/lists/font-awesome-dpss-allicons"/>
+                                        </itemType>
+                                    </items>
+                                </field>
+                            </multifield>
+                        </items>
+                    </noNavigationLinks>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <content-default
+                        jcr:description="Policy for editable layout containers"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Site Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/dpss/components/content/about-us-banner,/apps/dpss/components/content/alert-notification/v1/alert-notification,/apps/dpss/components/content/prgm-srvs-list/v1/prgm-srvs-list,/apps/dpss/components/content/button,/apps/dpss/components/content/calendar,/apps/dpss/components/content/card/v1/card,/apps/dpss/components/content/carousel,/apps/dpss/components/content/contentfragment,/apps/dpss/components/content/contentfragmentlist,/apps/dpss/components/content/contentbanner,/apps/dpss/components/content/experiencefragment,/apps/dpss/components/content/error-500/v1/error-500,/apps/dpss/components/content/event-details,/apps/dpss/components/content/community-events,/apps/dpss/components/content/faq,/apps/dpss/components/content/feedback,/apps/dpss/components/content/homepage-banner/v1/homepage-banner,/apps/dpss/components/content/homepage-newsfeed,/apps/dpss/components/content/image,/apps/dpss/components/content/list,/apps/dpss/components/content/navigation,/apps/dpss/components/content/news-archive,/apps/dpss/components/content/container,/apps/dpss/components/content/sharing,/apps/dpss/components/content/tabs,/apps/dpss/components/content/teaser,/apps/dpss/components/content/text,/apps/dpss/components/content/video,/apps/dpss/components/form/container,/apps/dpss/components/content/searchbar,/apps/dpss/components/content/searchresult]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="dpss/components/content/image"
+                                    type="Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </content-default>
+                    <homepage
+                        jcr:description="Policy for editable layout containers for homepage"
+                        jcr:lastModified="{Date}2022-06-22T13:13:31.802+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Homepage Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/dpss/components/content/button,/apps/dpss/components/content/calendar,/apps/dpss/components/content/card/v1/card,/apps/dpss/components/content/carousel,/apps/dpss/components/content/contentbanner,/apps/dpss/components/content/event-details,/apps/dpss/components/content/community-events,/apps/dpss/components/content/experiencefragment,/apps/dpss/components/content/feedback,/apps/dpss/components/content/faq,/apps/dpss/components/content/homepage-banner/v1/homepage-banner,/apps/dpss/components/content/homepage-callout,/apps/dpss/components/content/homepage-newsfeed,/apps/dpss/components/content/image,/apps/dpss/components/content/layoutContainer,/apps/dpss/components/content/navigation,/apps/dpss/components/content/news-archive,/apps/dpss/components/content/searchbar,/apps/dpss/components/content/searchresult,/apps/dpss/components/content/container,/apps/dpss/components/content/sharing,/apps/dpss/components/content/teaser,/apps/dpss/components/content/text,/apps/dpss/components/content/video,/apps/dpss/components/form/container,/apps/dpss/components/content/error-500/v1/error-500,/apps/dpss/components/structure/footer]"
+                        policyResourceType="wcm/foundation/components/responsivegrid">
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <image
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="dpss/components/content/image"
+                                    type="Images"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </homepage>
+                    <policy_93607308996200
+                        jcr:lastModified="{Date}2022-06-22T13:53:07.025+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Global Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/dpss/components/content/button,/apps/dpss/components/content/calendar,/apps/dpss/components/content/card/v1/card,/apps/dpss/components/content/carousel,/apps/dpss/components/content/experiencefragment,/apps/dpss/components/content/homepage-banner/v1/homepage-banner,/apps/dpss/components/content/layoutContainer,/apps/dpss/components/content/teaser,/apps/dpss/components/content/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_93607308996200>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <dpss jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <contentbanner jcr:primaryType="nt:unstructured">
+                    <cpbanner_policy
+                        jcr:lastModified="{Date}2019-07-30T18:50:04.527+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Content Page Banner"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedTypes="h1"
+                        linkDisabled="true"
+                        type="h1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </cpbanner_policy>
+                </contentbanner>
+                <text jcr:primaryType="nt:unstructured">
+                    <policy_text
+                        jcr:lastModified="{Date}2019-07-31T14:23:08.077+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Text Component Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Text Style"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="offsetB30"
+                                        cq:styleId="1565680697365"
+                                        cq:styleLabel="Margin Bottom"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                        <rtePlugins jcr:primaryType="nt:unstructured">
+                            <paraformat
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <formats
+                                    jcr:primaryType="nt:unstructured"
+                                    override="true">
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Paragraph"
+                                        tag="p"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Quote"
+                                        tag="blockquote"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Horizontal Rule (visual line break)"
+                                        tag="hr"/>
+                                    <item4
+                                        jcr:primaryType="nt:unstructured"
+                                        description="Preformatted"
+                                        tag="pre"/>
+                                </formats>
+                            </paraformat>
+                            <misctools
+                                jcr:primaryType="nt:unstructured"
+                                features="sourceedit,specialchars">
+                                <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                    <chars
+                                        jcr:primaryType="nt:unstructured"
+                                        override="true">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;copy;"
+                                            name="copyright"/>
+                                        <item1
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;euro;"
+                                            name="euro"/>
+                                        <item2
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;reg;"
+                                            name="registered"/>
+                                        <item3
+                                            jcr:primaryType="nt:unstructured"
+                                            entity="&amp;trade;"
+                                            name="trademark"/>
+                                    </chars>
+                                </specialCharsConfig>
+                            </misctools>
+                            <edit
+                                jcr:primaryType="nt:unstructured"
+                                features="paste-plaintext,paste-wordhtml"/>
+                            <lists
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <format
+                                jcr:primaryType="nt:unstructured"
+                                features="bold,italic,underline"/>
+                            <links
+                                jcr:primaryType="nt:unstructured"
+                                features="modifylink,unlink"/>
+                            <findreplace
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <undo
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <spellcheck
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                            <table
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <justify
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                            <subsuperscript
+                                jcr:primaryType="nt:unstructured"
+                                features="*"/>
+                        </rtePlugins>
+                    </policy_text>
+                </text>
+                <button jcr:primaryType="nt:unstructured">
+                    <policy_button
+                        jcr:lastModified="{Date}2019-08-13T14:03:54.369+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Button Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Card Button Style"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="card--button icon__bg--green"
+                                        cq:styleId="1565680697364"
+                                        cq:styleLabel="Green Card Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="card--button icon__bg--red"
+                                        cq:styleId="1565680723422"
+                                        cq:styleLabel="Red Card Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="card--button icon__bg--purple"
+                                        cq:styleId="1565680726835"
+                                        cq:styleLabel="Teal Card Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="card--button icon__bg--blue"
+                                        cq:styleId="1565680746191"
+                                        cq:styleLabel="Blue Card Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="right--icon-none"
+                                        cq:styleId="1565680746192"
+                                        cq:styleLabel="No Right Icon"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item5
+                                        cq:styleClasses="card--button icon__bg--orange"
+                                        cq:styleId="1565680746193"
+                                        cq:styleLabel="Orange Card Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item6
+                                        cq:styleClasses="card--button icon__bg--light-blue"
+                                        cq:styleId="1565680746194"
+                                        cq:styleLabel="Light Blue Card Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                            <item1
+                                cq:styleGroupLabel="Banner Button Style"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="banner--button"
+                                        cq:styleId="1565685225800"
+                                        cq:styleLabel="Blue Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item1>
+                            <item2
+                                cq:styleGroupLabel="Outline Button Style"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="transparent--button"
+                                        cq:styleId="1565690092058"
+                                        cq:styleLabel="Outline Button"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="font-2x"
+                                        cq:styleId="1565690092059"
+                                        cq:styleLabel="Font 2x"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="font-3x"
+                                        cq:styleId="1565690165398"
+                                        cq:styleLabel="Font 3x"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="font-4x"
+                                        cq:styleId="1565690169648"
+                                        cq:styleLabel="Font 4x"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item4
+                                        cq:styleClasses="font-5x"
+                                        cq:styleId="1565690171950"
+                                        cq:styleLabel="Font 5x"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item2>
+                        </cq:styleGroups>
+                    </policy_button>
+                </button>
+                <faq jcr:primaryType="nt:unstructured">
+                    <policy_faq
+                        jcr:description="FAQ Content Policy"
+                        jcr:lastModified="{Date}2019-08-12T14:25:20.353+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="FAQ Content Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedHeadingElements="[h2,h3,h4,h5]"
+                        components="/apps/dpss/components/content/text"
+                        headingElement="h3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_faq>
+                </faq>
+                <container jcr:primaryType="nt:unstructured">
+                    <policy_section_container
+                        jcr:description="Section Container Policy"
+                        jcr:lastModified="{Date}2019-08-27T17:11:44.466+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Section Container Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        backgroundColorEnabled="true"
+                        backgroundImageEnabled="true"
+                        components="group:DPSS.Content">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_section_container>
+                </container>
+                <howto-applycard jcr:primaryType="nt:unstructured">
+                    <v1 jcr:primaryType="nt:unstructured">
+                        <howto-applycard jcr:primaryType="nt:unstructured">
+                            <policy_srvslocatorapiurl
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Service-locator-api-url"
+                                sling:resourceType="wcm/core/components/policy/policy"
+                                applyCardSrvsLocatorUrl="https://locator.lacounty.gov/lac/Search">
+                                <jcr:content jcr:primaryType="nt:unstructured"/>
+                            </policy_srvslocatorapiurl>
+                        </howto-applycard>
+                    </v1>
+                </howto-applycard>
+                <carousel jcr:primaryType="nt:unstructured">
+                    <carousel-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Carousel-allowed-components"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        autopauseDisabled="false"
+                        autoplay="false"
+                        components="[/apps/dpss/components/content/image,/apps/dpss/components/content/teaser]"
+                        delay="5000">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </carousel-policy>
+                </carousel>
+                <layoutContainer jcr:primaryType="nt:unstructured">
+                    <policy_1655882630322
+                        jcr:description="Policy for Footer Experience"
+                        jcr:lastModified="{Date}2022-06-22T13:01:12.807+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Footer Experience Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="/apps/dpss/components/structure/footer"
+                        layoutDisabled="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1655882630322>
+                    <policy_91871319514700
+                        jcr:description="Policy for Home Page"
+                        jcr:lastModified="{Date}2022-06-22T13:23:06.743+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Home Page Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/dpss/components/content/button,/apps/dpss/components/content/calendar,/apps/dpss/components/content/card/v1/card,/apps/dpss/components/content/carousel,/apps/dpss/components/content/contentbanner,/apps/dpss/components/content/feedback,/apps/dpss/components/content/homepage-banner/v1/homepage-banner,/apps/dpss/components/content/image,/apps/dpss/components/content/searchbar,/apps/dpss/components/content/teaser,/apps/dpss/components/content/text]"
+                        layoutDisabled="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_91871319514700>
+                    <policy_93728068328700
+                        jcr:lastModified="{Date}2022-06-22T13:54:12.689+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Global Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/dpss/components/content/button,/apps/dpss/components/content/calendar,/apps/dpss/components/content/card/v1/card,/apps/dpss/components/content/carousel,/apps/dpss/components/content/event-details,/apps/dpss/components/content/experiencefragment,/apps/dpss/components/content/layoutContainer]"
+                        layoutDisabled="false">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_93728068328700>
+                </layoutContainer>
+            </content>
+            <form jcr:primaryType="nt:unstructured">
+                <container jcr:primaryType="nt:unstructured">
+                    <form-container
+                        cq:styleDefaultClasses="form__content"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Site Form"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/dpss/components/form/button,/apps/dpss/components/form/hidden,/apps/dpss/components/form/options,/apps/dpss/components/form/text,/apps/dpss/components/content/text]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Form Container"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="form__content"
+                                        cq:styleId="1569021898563"
+                                        cq:styleLabel="Form "
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </form-container>
+                </container>
+                <text jcr:primaryType="nt:unstructured">
+                    <policy_1569021210988
+                        cq:styleDefaultClasses="form--group"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Form Text Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Form Text"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="form--group"
+                                        cq:styleId="1569021274013"
+                                        cq:styleLabel="Form Group"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="form--group--lg"
+                                        cq:styleId="1569021298671"
+                                        cq:styleLabel="Form Group Lg"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="character--count"
+                                        cq:styleId="1569272031314"
+                                        cq:styleLabel="Character Limit 300"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1569021210988>
+                </text>
+                <options jcr:primaryType="nt:unstructured">
+                    <policy_1569021646535
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Form Options Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Form Options"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="form--group"
+                                        cq:styleId="1569021680232"
+                                        cq:styleLabel="Form Group"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="form--group-lg"
+                                        cq:styleId="1569021681165"
+                                        cq:styleLabel="Form Group Lg"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="form-check-inline"
+                                        cq:styleId="1569021680278"
+                                        cq:styleLabel="Form RadioBox Inline"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1569021646535>
+                </options>
+                <button jcr:primaryType="nt:unstructured">
+                    <policy_1569021393347
+                        cq:styleDefaultClasses="form--group form--group-lg form--btn"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="DPSS Form Button Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Form Button"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="form--group "
+                                        cq:styleId="1569021553650"
+                                        cq:styleLabel="Form Group"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="form--group-lg"
+                                        cq:styleId="1569021554717"
+                                        cq:styleLabel="Form Group Lg"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="form-btn"
+                                        cq:styleId="1569021555483"
+                                        cq:styleLabel="Form Btn"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item3
+                                        cq:styleClasses="btn--cancel"
+                                        cq:styleId="1569021555492"
+                                        cq:styleLabel="Btn Cancel"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1569021393347>
+                </button>
+            </form>
+            <structure jcr:primaryType="nt:unstructured">
+                <home-page jcr:primaryType="nt:unstructured">
+                    <home-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </home-page-policy>
+                </home-page>
+                <base-page jcr:primaryType="nt:unstructured">
+                    <base-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </base-page-policy>
+                </base-page>
+                <content-page jcr:primaryType="nt:unstructured">
+                    <content-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </content-page-policy>
+                </content-page>
+                <category-page jcr:primaryType="nt:unstructured">
+                    <category-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </category-page-policy>
+                </category-page>
+                <program-page jcr:primaryType="nt:unstructured">
+                    <program-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </program-page-policy>
+                </program-page>
+                <detail-page jcr:primaryType="nt:unstructured">
+                    <detail-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </detail-page-policy>
+                </detail-page>
+                <news-detail-page jcr:primaryType="nt:unstructured">
+                    <news-detail-page-policy
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="resource-policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        appResourcesClientlib="dpss.site">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </news-detail-page-policy>
+                </news-detail-page>
+            </structure>
+        </components>
+    </dpss>
+</jcr:root>

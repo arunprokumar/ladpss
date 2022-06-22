@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    changefreq.properties="[]"
+    character.encoding=""
+    damassets.property=""
+    damassets.types="[]"
+    exclude.property="hideInNav"
+    extensionless.urls="{Boolean}false"
+    externalizer.domain="author"
+    include.inherit="{Boolean}false"
+    include.lastreplicated="{Boolean}true"
+    include.lastreplicatedtime="{Boolean}true"
+    priority.properties="[]"
+    remove.slash="{Boolean}false"
+    sling.servlet.resourceTypes="[dpss/components/structure/home-page]"/>

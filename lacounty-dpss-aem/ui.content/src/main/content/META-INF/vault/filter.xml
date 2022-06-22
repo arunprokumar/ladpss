@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/dpss" mode="merge"/>
+    <filter root="/content/dpss" mode="merge"/>
+    <filter root="/content/dam/dpss" mode="merge"/>
+    <filter root="/content/experience-fragments" mode="merge"/>
+    <filter root="/conf/global/settings/workflow/models/content-review-for-publication" mode="merge"/>
+    <filter root="/var/workflow/models/content-review-for-publication" mode="merge"/>
+</workspaceFilter>

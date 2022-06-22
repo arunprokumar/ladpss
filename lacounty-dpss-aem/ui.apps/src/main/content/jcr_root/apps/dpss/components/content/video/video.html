@@ -1,0 +1,24 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder" data-emptytext="Video"></div>
+<div class="video__content" data-sly-use.video="com.adobe.aem.lacounty.dpss.core.models.VideoModel" id="${currentNode.parent.parent.name}-${currentNode.parent.name}-${currentNode.name}">
+	<div class="heading--large" data-sly-test="${video.title}">${video.title @ context='html'}</div>
+    <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive-item" controls="" data-sly-test="${video.videoCode}">
+            ${video.videoCode @ context='unsafe'}
+        </div>
+    </div>
+</div>

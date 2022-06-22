@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    debug.email="{Boolean}true"
+    from.address="webmaster@dpss.lacounty.gov"
+    smtp.host="159.83.131.206"
+    smtp.password="D9R4YRqh?"
+    smtp.port="25"
+    smtp.ssl="{Boolean}false"
+    smtp.starttls="{Boolean}true"
+    smtp.user="svc_dpss-smtp"/>

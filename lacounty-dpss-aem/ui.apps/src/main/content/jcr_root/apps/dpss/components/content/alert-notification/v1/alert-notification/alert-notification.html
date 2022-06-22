@@ -1,0 +1,20 @@
+<sly data-sly-use.alertModel="com.adobe.aem.lacounty.dpss.core.models.AlertNotificationModel" />
+<div data-sly-test="${alertModel.alertOrNotification == 'alert'}" class="alert-danger width--full">
+  <div class="container">
+    <div class="alert alert-dismissible">
+      <strong> <span class="fa fa-exclamation-triangle"></span> ${'alert' @i18n}</strong>
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <div> ${alertModel.alertNotificationContent @ context='html'} </div>
+    </div>
+  </div>
+</div>
+
+<div data-sly-test="${alertModel.alertOrNotification == 'notification'}" class=" alert-info width--full">
+  <div class="container">
+    <div class="alert alert-dismissible">
+      <strong><span class="fa fa-bell"></span> ${'notification' @i18n}</strong>
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <div> ${alertModel.alertNotificationContent @ context='html'} </div>
+    </div>
+  </div>
+</div>

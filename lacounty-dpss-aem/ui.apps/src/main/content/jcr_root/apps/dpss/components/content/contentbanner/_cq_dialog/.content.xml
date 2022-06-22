@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Content Page Banner"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.title.v2.editor]"
+    helpPath="https://www.adobe.com/go/aem_cmp_title_v2"
+    trackingFeature="core-components:title:v2">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <sub-text
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Leave empty to use the page description."
+                                                fieldLabel="Sub Text"
+                                                name="./subText"/>
+                                            <types
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:hideResource="{Boolean}true"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                name="./type"/>
+                                            <defaulttypes
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:hideResource="{Boolean}true"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                name="./type"/>
+                                            <hidedesc
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                checked="false"
+                                                fieldDescription="Check to hide the page description"
+                                                name="./hideDesc"
+                                                text="Hide Description"
+                                                uncheckedValue="false"
+                                                value="true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                    <navigationLinks
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Links"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <multifield
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./link">
+                                    <items
+                                        jcr:primaryType="nt:unstructured"
+                                        name="./items">
+                                        <itemText
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Link Text"
+                                            name="./itemText"/>
+                                        <itemURL
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldDescription="Select URL to open link in Same/New Tab"
+                                            fieldLabel="Link URL"
+                                            name="./itemTarget"
+                                            rootPath="/content/dpss"/>
+                                        <itemAction
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            fieldLabel="Link Action"
+                                            name="./itemAction">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <option1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Open link in new tab"
+                                                    value="_blank"/>
+                                                <option2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Open link in same tab"
+                                                    value="_self"/>
+                                            </items>
+                                        </itemAction>
+                                    </items>
+                                </field>
+                            </multifield>
+                        </items>
+                    </navigationLinks>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

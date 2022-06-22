@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="21" viewBox="0 0 10 21">
+  <g id="Group_2" data-name="Group 2" transform="translate(-63 -120)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="10" height="21" transform="translate(63 120)" fill="none"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(64.478 124.434)">
+      <path id="Polygon_1" data-name="Polygon 1" d="M4,0,8,6H0Z" transform="translate(-0.478 -0.434)"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M4,0,8,6H0Z" transform="translate(7.522 13.566) rotate(180)"/>
+    </g>
+  </g>
+</svg>

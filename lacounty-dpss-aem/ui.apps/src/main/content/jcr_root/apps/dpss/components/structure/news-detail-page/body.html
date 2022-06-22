@@ -1,0 +1,21 @@
+<sly
+	data-sly-resource="${ 'header' @ resourceType='dpss/components/structure/header/v1/header', wcmmode='disabled'}"></sly>
+<div class="container">
+	<sly
+		data-sly-resource="${ 'breadcrumb' @ resourceType='dpss/components/content/breadcrumb/v1/breadcrumb', wcmmode='disabled'}"></sly>
+	<sly
+		data-sly-resource="${ 'experiencefragment' @ resourceType='dpss/components/content/experiencefragment', wcmmode='disabled'}"></sly>
+	<div class="news-article__content">
+		<div class="news-article__title">
+			<h1>${currentPage.pageTitle ? currentPage.pageTitle :
+				currentPage.title}</h1>
+		</div>
+		<sly
+			data-sly-use.templatedContainer="com.day.cq.wcm.foundation.TemplatedContainer"
+			data-sly-repeat.child="${templatedContainer.structureResources}"
+			data-sly-resource="${child.path @ resourceType=child.resourceType}"></sly>
+
+	</div>
+</div>
+<sly
+	data-sly-resource="${ 'footer' @ resourceType='dpss/components/structure/footer/v1/footer', wcmmode='disabled'}"></sly>

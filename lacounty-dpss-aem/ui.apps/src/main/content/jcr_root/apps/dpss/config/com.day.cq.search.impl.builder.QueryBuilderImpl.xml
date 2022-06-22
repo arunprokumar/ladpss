@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    cache.entry.lifetime="{Long}300"
+    cache.max.entries="{Long}0"
+    excerpt.properties="[alertNotificationContent,alt,applyByPhoneButtonText,applyByPhoneDescription,applyByPhoneTitle,applyInPersonDescription,applyInPersonTitle,applyInPersonFindSrvsLabel,applyOnlineButtonText,applyOnlineDescription,applyOnlineTitle,bannerTitle,cardSubtitle,cardTitle,description,eventTitle,googleMapLinkText,imageAltTxt,itemText,jcr:description,jcr:title,label,noItemText,noMessage,noText,subText,text,title,titleText,videoTitle,yesItemText,yesMessage,yesText,ybnItemText,ybnText]"
+    xpath.union="{Boolean}true"/>

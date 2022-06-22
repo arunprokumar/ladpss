@@ -1,0 +1,8 @@
+#main js file
+../../../dpss-frontend/clientlibs/clientlib-site/js/site.js
+js/promise-polyfill.js
+js/fetch-polyfill.js
+js/alert-notification/alert-notification.js
+js/accessibility-maincontent/accessibility-maincontent.js
+js/forms/form-components.js
+js/rte-table/rte-table.js

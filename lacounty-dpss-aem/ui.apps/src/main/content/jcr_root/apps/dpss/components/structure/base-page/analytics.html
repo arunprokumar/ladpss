@@ -1,0 +1,18 @@
+<sly data-sly-use.basePageModelAlternate="${'com.adobe.aem.lacounty.dpss.core.models.BasePageModel' @ path=currentPage.path}"/>
+<!--/* Data layer JavaScript object: */-->
+<script data-sly-use.page="com.adobe.cq.wcm.core.components.models.Page">
+        window.digitalData = window.digitalData || {};
+        window.digitalData.pageInfo = window.digitalData.pageInfo || {};
+				window.digitalData = {
+		  			  pageInfo: {
+		  				  pageName: '${currentPage.title @context="scriptString"}',
+		  				  pageURL : window.location.href,
+                          siteSection:'${basePageModelAlternate.siteSection @context="scriptString"}', //Main Section as per the Site Hierarchy
+                          language: '${page.language @context="unsafe"}', //Language where the user has visted(en, etc)
+                          pageType:	'${currentPage.title == ("404" || "403") ? "errorPage" : "" @context="scriptString"}'
+                  }
+				}
+</script>
+ <sly/>
+<!--/* Adobe launch integration script */-->
+<script  src="${basePageModelAlternate.launchConfigUrl @context='attribute'}" async></script>

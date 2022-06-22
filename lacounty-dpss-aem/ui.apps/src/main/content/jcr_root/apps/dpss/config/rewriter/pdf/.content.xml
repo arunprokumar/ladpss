@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    enabled="{Boolean}true"
+    extensions="[pdf]"
+    generatorType="empty-generator"
+    order="0"
+    processError="{Boolean}false"
+    serializerType="fop"
+    transformerTypes="[htmlparser,xslt]">
+    <serializer-fop
+        jcr:primaryType="nt:unstructured"
+        mime-type="application/pdf"/>
+    <transformer-xslt
+        jcr:primaryType="nt:unstructured"
+        source="sling://libs/wcm/core/content/pdf/page2fo.xsl"/>
+</jcr:root>

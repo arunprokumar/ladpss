@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-22T13:29:07.254+05:30"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/dpss/settings/wcm/template-types/base-page"
+        jcr:description="Detail Page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Detail Page"
+        status="enabled"/>
+</jcr:root>

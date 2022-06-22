@@ -1,0 +1,1326 @@
+AAPIRS, Automated Application Processing and Information Retrieval System
+AB, Assembly Bill
+ABAWD, Able Bodied Adults Without Dependents
+ABC, Automated Banking Concept
+ABCA, Association Of Black County Administrators
+ABD, Aged Blind Disabled
+ABE, Adult Basic Education
+ABP, Adult Benefits Program
+ACA, Automated Call Attendant
+ACES, Active Case Management of Employment and Supportive Services
+ACF, Administration for Children and Families
+ACFSA, Adult Care Facility Standards Action
+ACIN, All County Information Notice
+ACL, All County Letter
+ACLU, American Civil Liberties Union
+ACORN, Association of Community Organizations for Reform Now
+ACS, Affiliated Computer Services
+ACSES, Automated Child Support Enforcement System
+ACSPS, Automated Child Support Payment System
+ACWD, All County Welfare Directors
+ACWDL, All County Welfare Directors Letter
+ACYF, Administration for Children Youth and Families
+AD, Administrative Directive
+ADA, Americans With Disabilities Act
+ADAM, Automated District Attorney Match
+ADC, Adult Day Care
+ADEA, Age Discrimination In Employment Act
+ADH, Adult Day Health
+ADHC, Adult Day Health Care
+ADL, Activity Of Daily Living
+ADN, Advanced Digital Network
+ADR, Alternative Dispute Resolution
+ADR, Average Daily Ridership
+ADT, Average Daily Traffic
+AE, Administrative Error
+AEC, Administrative Expense Claim
+AED, Automated Eligibility Determination
+AEITC, Advance Earned Income Tax Credit
+AESAP, Automated Employee Suggestion Awards Program
+AFC, Afirm Fingerprint Clerk
+AFDC, Aid to Families with Dependent Children
+AFH, Adult Family Home
+AFIRM, Automated Fingerprint Image Reporting and Match
+AFIS, Automated Fingerprint Identification System (Now Afirm)
+AFL, Automated Film Library
+AFLP, Adolescent Family Life Program
+AFMS, Automated Fingerprint Matching System
+AFV, Alternative Fueled Vehicle
+AGCM, Automated General Relief Case Management
+AGCMS, Automated Generic Case Management System
+AGPS, Advanced Government Purchasing System
+AGREE, Automated General Relief Eligibility and Employment system
+AHERA, Asbestos Hazard Emergency Response Act
+AIC, American Indian Council
+AIDS, Acquired Immune Deficiency Syndrome
+AIM, Access for Infants and Mothers
+AIMS, Archiving Imaging Management System
+AIP, Airport Improvement Program
+AIRS, Alliance of Information and Referral Service
+AKA, Also Known As
+ALJ, Administrative Law Judge
+AM, Asset Management
+AMPG, Applied Management & Planning Group
+AMS, Asset Management Section
+AMSLAN, American Sign Language
+AM/PM, Address Match Phone Match
+ANEC, Abused Neglected Exploited Children
+ANITA, Automated Notification and Information Tracking Administrator
+ANSI, American National Standards Institute
+AOA, Administration On Agency
+AOD, Alcohol and Other Drugs
+AP, Appraisal Of Promotability
+APA, Administrative Procedures Act
+APD, Advance Planning Document
+APD, Assistance Payments Division
+APD, Assistant Program Deputy
+APDP, Assistance Payments Demonstration Project
+APHSA, American Public Human Services Association
+API, Application Program Interface
+APP, Alternative Payment Program
+APP, Conversion Specification Document
+APPR, Average Private Pay Rate
+APPS, Automated Provider Payment Systems
+APS, Adult Protective Services
+APWA, American Public Welfare Association
+AQL, Acceptable Quality Level
+AQMD, Air Quality Management District
+AR, Allotment Reduction
+AR, Authorized Representative
+ARC, Afirm Rescheduling Clerk
+ARC, Aids Related Complex
+ARF, Adult Residential Facility
+ARP, Alcoholic Rehabilitation Program
+ARS, Acses Replacement System
+ASAP, Automated Ssi Appeals Project
+ASAW, Additional Special Agricultural Worker
+ASC, Automated Steering Committee
+ASCII, American Standard Code For Information Interchange
+ASET, After School Enrichment
+ASE, After School Enrighment
+ASET, Automated Systems Evaluation Team
+ASFA, Adoption and Safe Families Act
+ASH, Appeals and State Hearings
+ASL, American Sign Language
+ASM III, Administrative Services Manager III
+ASP, Application Service Provider
+ASSIST, Adult and Senior Services Interagency Support Team
+AT, Action Transmittal
+ATOD, Alcohol, Tabacco, and Other Drugs
+ATP, Authorizaton To Participate
+ATS, Application Transfer System
+ATT, Authorization To Transfer
+AU, Administratively Unemployable
+AU, Assistance Unit
+AUM, Animal Unit Month
+AVR, Average Vehicle Ridership
+AWEX, Alternative Work Experience
+AWFDS, Automated Welfare Fraud Detection System
+AWINS, Auditor's Warrant Inquiry System
+AWP, Aids Waiver Program
+AWS, Alternate Work Schedule
+AWT, Advanced Wastewater Treatment
+AWX, Alternate Work Experience
+AYL, Arbitrage Yield Limit
+BACT, Best Available Control Technology
+BAN, Bond Anticipation Note
+BAP, Bureau Of Assistance Payments
+BAS, Bureau Of Administrative Services
+BAT, Best Available Technology
+BBT, Basic Budget Table
+BCBP, Bureau of Customs and Border Inspections
+BCCP, Business Continuation Contingency Plan
+BCCTP, Breast and Cervical Cancer Treatment Program
+BCIS, Bureau of Citizenship Immigration Services
+BCTS, Bureau of Contracts and Technology Sevices
+BCW, Bureau of CalWORKs
+BEC, Building Emergency Coordinator
+BEER, Beneficiary Earnings Exchange Record
+BENDEX, Beneficiary Data Exchange
+BEOMB, Beneficiary Explanation Of Medi Cal Benefits
+BF, Budget Factor
+BHASS, Bureau of Health, Adult and Specialized Services
+BHI, Boarding Home and Institution
+BHNSS, Bureau of Health, Nutrition and Special Services
+BIA, Bureau of Indian Affairs
+BIC, Beneficiary Identification Card
+BIC, Benefits Identification Card
+BIC, Benefits Issuance Card
+BICE, Bureau of Immigration and Customs Enforcement
+BIRLS, Beneficiary Identification and Records Locator System
+BIS, Business Information Server
+BITS, Boxed Index Tracking System
+BKOSTS, Backorder Status Report
+BLM, Bureau Of Land Management
+BOL, Budget On Line
+BOOST, Better Organized Operations and Systematic Tasks
+BOS, Balance Of State
+BPPD, Bureau of Program Planning and Development
+BPRE, Bureau of Policy Research and Evaluation
+BSAC, Basic Standard Of Adequate Care
+BSO, Bureau Of Special Operations
+BSR, Budget Status Report
+BWS, Bureau of Worforce Services
+B&C, Board and Care
+CA, Comprehensive Assessment
+CA SFIS, California Statewide Fingerprint Imaging System
+CAA, Clean Air Act
+CAAP, California Alternative Assistance Program
+CAB, Community Acton Board
+CACS, Computer Assisted Case Storage
+CAD, Computer Aided Dispatch Or Computer Assisted Drafting
+CAER, Community Awareness and Emergency Response
+CAFR, Comprehensive Annual Financial Report
+CAG, Control Advisory Group
+CAIRS, California Alliance of Informaton and Referral Service
+CalWORKs, California Work Opportunity and Responsibility to Kids
+CAMA, Computer Assisted Mass Appraisal
+CAMIS, Countywide Acquisition Management Information System
+CAO, Chief Administrative Office
+CAOAC, Chief Administrative Officers Association of California
+CAO/OHR, Chief Administrative Office/Office Of Human Resources
+CAO/RIMA, Chief Administrative Office/Risk and Insurance Management Agency
+CAP, Community Access Program
+CAP, Cost Allocation Plan
+CAPC, Corrective Action Planning Committee
+CAPI, Cash Assistance Program to Immigrants
+CAPS, Countywide Accounting and Purchasing System
+CAPTA, Child Abuse Prevention and Treatment Act
+CAR, Caseload Activity Report
+CAR, Computer Assisted Retrieval
+CART, Critical Action Review Team
+CASA, Center on Addiction and Subtstance Abuse
+CASAS, Comprehensive Adult Student Assessment System
+CASE, Computer Aided Software Engineering
+CASH, Computerized Appeals and State Hearings
+CASISAB, Children & Adult Services Information Systems Advisory Body
+CAST, Cw 7 Automated Scanning and Tracking System
+CAT, Centralized Audit Team
+CATHY, Community Assistance To Homeless Youngsters
+CATS, Controlled Assets Tracking System
+CATT, Centralized Application Timesheet Team
+CAVE, Citizens Against Virtually Everything
+CBA, Cost/Benefit Analysis
+CBD, Central Business District
+CBE, Community Based Enterprises
+CBO, Community Based Organization
+CBT, Computer Based Training Program
+CCA, County Contract Administrator
+CCAP, County Cost Allocation Plan
+CCC, Child Care Center
+CCC, Child Care Coordinator
+CCC, CW7 Change Center
+CCD, Census County Division
+CCDBG, Child Care Development Block Grant
+CCF, Congregate Care Facility
+CCGLP, Child Care Capacity Grant and Loan Program
+CCH, Coordinating Council On Homelessness
+CCIEU, Child Care Institutions Evaluation Unit
+CCIR, Case Complaint Inquiry and Referral section
+CCITT, Consultative Committee for Internation Telephone and Telegraph
+CCR, California Code of Regulations
+CCS, California Children's Services
+CCS, Continental Currency Services
+CCTI, Child Care Training Institute
+CCU, Centralized Consultation Unit
+CC&R, Case Complaint and Review
+CD, Check Digit
+CDROM, Compact Disc Read Only Memory
+CDB, Central Data Base
+CDBG, Community Development Block Grant
+CDC, California Department Of Corrections
+CDC, Centers for Disease Control and Prevention
+CDC, Claim Determination Control
+CDC, Community Development Commission
+CDD, Contract Development Division
+CDE, California Department Of Education
+CDHS, California Department Of Health Services (Formerly SDHS)
+CDL, Commercial Drivers License
+CDMS, Case Data Management System
+CDP, Career Development Participant Program
+CDP, Cash Programs Division
+CDR, Contract Discrepancy Report
+CDSS, California Department Of Social Services
+CD/DB, Confirmation Document Database
+CE, Categorically Eligible
+CEA, Comprehensive Employability Assessment
+CEC, County Expense Claim
+CEO, Chief Elected Offical
+CERCLA, Comprehensive Environmental Response, Compensation and Liability act
+CERT, Computer Emergency Response Team
+CES, Cooperative Extension Service
+CETA, Comprehensive Employment and Training Act
+CEU, Continuing Education Units
+CEVC, County Employment Verification Clerk
+CFAB, County Financial Analysis Bureau
+CFAP, California Food Assistance Program
+CFL, County Fiscal Letter
+CFO, Chief Financial Officer
+CFR, Code Of Federal Regulation
+CFR, Code Of Federal Regulations
+CFRL, Central Fraud Reporting Line
+CHAS, Comprehensive Housing Affordability Strategy
+CHC, Case Management Home And Community Based Care
+CHC, Community Health Center
+CHDP, Child Health and Disability Prevention
+CHEP, Cuban/Haitian Entrant Program
+CHL, Central Help Line
+CHN, California Homeless Network
+CI, Client Index
+CID, Central Id
+CID, County Input Document
+CIMS, Countywide Information Messaging Systems
+CIN, Client Index Number
+CIN, Corporate Information Network
+CIO, Chief Information Officer
+CIP, Community Improvement Plan
+CIS, Childrens' Information System Services
+CIU, Central Intake Unit
+CJTC, California Jobs Tax Credit
+CLAS, California Loans to Assist Students
+CLEAN, Client Entry Assistance Network
+CM, Case Management
+CM, Contract Management
+CMAG, California Medi Cal Advisory Group
+CMD, Contract Management Division
+CMIPS, Case Management Information and Payroll System
+CMRA, Commercial Mail Receiving Agents
+CMS, Caseload Management System
+CMS, Centers for Medicare and medicaid Services
+CMW, Case Management Worker
+COB, Close Of Business
+COBOL, Common Business Oriented Language
+COBRA, Comprehensive Omnibus Budget Reconciliation Act
+COBRA, Consolidated Omnibus Budget Reconciliation Act
+COE, County Office Of Education
+COG, Council Of Government
+COLA, Cost Of Living Adjustment
+COLD, Computer Output to Laser Disk
+COMPASS, County Owned Multi Point Automatic Switching System
+COP, Certificate Of Participation
+COR, County Office Of Recovery
+CORE, Committee On Review and Evaluation (of CalWORKs)
+COTS, Commercial Off The Shelf
+CP, Communications Processor
+CPAS, Comprehensive Public Assistance System
+CPC, Children's Planning Council
+CPI, Consumer Price Index
+CPMP, Community Prisoner Mother Program
+CPO, Contract Program Office
+CPR, Cardio Pulmonary Resuscitation
+CPSP, Comprehensive Perinatal Services Program
+CPU, Central Processing Unit
+CPUC, California Public Utilities Commission
+CRA, Community Reinvestment Act
+CRC, Camera Ready Copy
+CRIB, Community Resource Information Bank
+CRIS, Community Resource Investment Strategy
+CRLS, Civil Rights & Language Services
+CRNA, Community Resorces and Needs Assessment
+CRP, Conservation Reserve Program
+CRT, Cathode Ray Tube
+CSAC, California State Association Of Counties
+CSB, Community Services Board
+CSBG, Community Services Block Grant
+CSCDS, Customer Service and Cultural Diversity Sensitivity
+CSD, Computer Services Division
+CSE, Child Support Enforcement
+CSO, Combined Sewer Overflow
+CSR, Change Service Request
+CSRA, Community Spouse Resource Allowance
+CSRC, Community Services Resources Corporation
+CSS, Children's Services Supervisor
+CSS, Community and Senior Services department
+CSS, Customer Service and Satisfactions
+CSSD, Child Support Services Department
+CSSMA, Communications Support Services Master Agreements
+CSW, Children's Services Worker
+CSWC, Clinical Social Work Consultant
+CTO, Compensating Time Off
+CTR, County Technical Representative
+CTS, Commuter Transportation Services
+CUBS, Columbia Ultimate Business Systems
+CWA, Clean Water Act
+CWD, Conditional Withdrawal
+CWD, County Welfare Department
+CWDA, California Welfare Directors Association
+CWICS, Countywide Inventory Control System
+CWIRS, County Wide Integrated Radio System
+CWPAY, CountyWide PAYroll
+CWPDP, California Work Pays Demonstration Project
+CWRD, County Wide Reporting Database
+CWS, College Work Study
+CWS/CMS, Child Welfare Services/Case Management System
+CWTAPPS, CountyWide Timekeeping And Payroll/Personnel System
+CY, Calendar Year
+CYA, California Youth Authority
+CZMA, Costal Zone Management Act
+DA, District Attorney
+DAC, Disabled Adult Child
+DAC, Disaster Application Centers
+DAC, Disaster Assistance Centers
+DADS, Duplicate Aid Detection System
+DAPD, Disability and Adult Programs Division
+DARE, Drug Abuse Resistance Education
+DART, Domestic Abuse Response Team
+DASD, Direct Access Storage Device
+DBE, Disadvantaged Business Enterprises
+DBMS, Data Base Management System
+DCFS, Department of Children and Family Services
+DCRMT, Department Case Records Management Team
+DCS, Department Of Children's Services
+DCSCS, Department of Community and Senior Citizen Services
+DCSR, Departmental Civil Service Representatives
+DCSS, Department of Community and Senior Services
+DD, Developmental Disability Or Dually Diagnosed
+DD, District Director
+DDD, Deputy District Director
+DDS, Disability Determination Services
+DEC, Digital Equipment Corporation
+DED, Disability Evaluation Division
+DEFRA, Deficit Reduction Act
+DES, Disability Evaluation Service
+DESAC, Departmental Employee Suggestion Awards Committee
+DFD, Data Flow Diagrams
+DHHS, Department of Health and Human Services
+DHR, Department of Human Resources
+DHS, Department Of Health Services
+DHS, Department of Homeland Security
+DIATP, District Issued Authorization To Participate
+DIB, Disability Insurance Benefits
+DINC, Double Income No Children
+DISCRS, DPSS Intranet Security Crossmatch Report
+DLS, Digital Subscriber Line
+DMH, Department Of Mental Health
+DMS, Dispatch Management System
+DMV, Department Of Motor Vehicles
+DMVA, Department of Military and Veterans Affairs
+DO, District Office
+DOA, Department Of Agriculture
+DOB, Date Of Birth
+DOC, Department Of Collections (Now T/Tc)
+DOE, Date Of Entry
+DOE, Department Of Energy
+DOF, Department Of Finance
+DOI, Department Of Interior
+DOL, Department of Labor
+DOS, Disk Operating System
+DOT, Department Of Transportation
+DPD, Data Processing Department
+DPO, Deputy Probation Officer
+DPR, Department of Parks and Recreation
+DPSS, Department of Public Social Services
+DPTAC, Data Processing and Telecommunications Advisory Committee
+DPW, Department of Public Works
+DR, Department Of Rehabilitation
+DRSA, Deputy Regional Services Administrator
+DSA, District Save Coordinator
+DSC, Designated Site Coordinator
+DSC, Disaster Service Centers
+DSD, Detailed System Design
+DSF, Delivery Sequence File
+DSL, Digital Subscriber Line
+DSM, Deliverables Standards Manual
+DSO, Departmental Service Order
+DSR, Data Services Request
+DSS, Digital Signature Standard
+DSS III, Data Systems Supervisor III
+DT, Data Transmission
+DUA, Disaster Unemployment Assistance
+DUI, Driving Under The Influence (Of Aod)
+DV, Domestic Violence
+DW, Disabled Widow/Ers
+DWI, Driving While Intoxicated
+D/ATC, Drug/Alcoholic Treatment Center
+D/O, District Office
+EMAIL, Electronic Mail
+EAUP, Emergency Assistance Unemployed Parent
+EAA, Employee Assignment Agreement
+EAFD/P, Early Action Fraud Detection/Prevention
+EAP, Emergency Advance Payment
+EAP, Employee Assistance Program
+EAP, Employee Assistance Program
+EAR, Emergency Aid Requisition
+EARN, Earnings Alternative Resource Network
+EAS, Eligibility and Assistance Standards
+EAS, Essential Air Service
+EAU, Eligibility Assurance Unit (Ca 7 Control)
+EBCDIC, Extended Binary Coded Decimal Interface Code
+EBT, Electronic Benefits Transfer
+EBTS, Electronic Benefit Transfer System
+EC, Enterprise Community
+ECA, Entrant Cash Assistance
+ECIP, Energy Crisis Intervention Program
+ECL, Executive Control Language
+ECS, Earnings Clearance System
+EDA, Economic Development Administration
+EDBC, Eligibility Determination/Benefit Calculation
+EDC, Economic Development Corporation Of Los Angeles County
+EDD, Employment Development Department
+EDI, Electronic Data Interchange
+EDMAC, Employee Development Management Committee
+EDP, Electronic Data Processing
+EDS, Electronic Data Systems
+EDWAA, Economic Dislocation and Worker Adjustment Assistance
+EDWAAA, Economic Dislocation and Worker Adjustment Assistance Act
+ED/BC, Eligibility Determination/Benefit Computation
+EEIA, Employment and Economic Incentive Act
+EEO, Equal Employment Opportunity
+EFDP, Early Fraud Detection/Prevention
+EFDPP, Early Fraud Detection and Prevention Program
+EFT, Electronic Fund Transfer
+EFT, Employment Training Fund
+EFTA, Electronic Fund Transfer Act
+EGA, Employment Generating Activities
+EIC, Earned Income Credit
+EID, Earned Income Disregard
+EIDMS, Electronic Image Document Management System
+EIS, Environmental Impact Statement
+EIS, Executive Information Systems
+EITC, Earned Income Tax Credit
+EMCC/TAO, Electronic Mail Communication Center/Totally Automated Office
+EMERS, Electronic Monthly Eligibility Reporting System
+EMS, Eligibility Management Systems
+EMS, Emergency Management Section
+EMS, Emergency Medical Service
+EMT, Emergency Medical Technician
+EOC, Emergency Operations Center
+EOP, Economic Order Point
+EOP, Emergency Operation Plan
+EOQ, Economic Order Quantity
+EPA, Environmental Protection Agency
+EPOS, Employment Programs and Operations Section
+EQIP, Environmental Quality Incentive Program
+ER, Emergency Representative
+ERDP, Employment Readiness Demonstration Project
+ERP, Enterprise Resource Planning
+ES, Eligibility Supervisor
+ES, Expedited Service
+ESA, Earned Salary Advance
+ESA, Employee Suggestion Award
+ESA, Endangered Species Act
+ESARC, Employee Suggestion Award Review Committee
+ESC, Emergency Services For Children
+ESC, Executive Steering Committee
+ESEA, Elementary and Secondary Education Act
+ESG, Emergency Shelter Grants
+ESL, English As A Second Language
+ESP, Earthquake Survival Program
+ESP, Emergency Survival Program
+ESSMA, Energy Support Services Master Agreement
+ETA, Electronic Transfer Account
+ETI, Economically Targeted Investment
+ETRS, Employment Training and Rehabilitation Services
+EUC, End User Computing
+EVCL, Enrollment Verification Control Listing
+EW, Eligibility Worker
+EWS, Emergency Welfare Services
+EZ, Empowerment Zone
+FAADS, Financial Analysis and Data Systems
+FACA, Federal Advisory Committee Act
+FACS, Forms & Action Control System
+FACTS, Fraud Automated Case Tracking System
+FAIR, Federal Agriculture Improvement and Reform act
+FAMIS, Family Assistance Management Information System
+FAST, Families Achieving Self Sufficiency Together
+FBR, Federal Benefit Rates
+FBU, Family Budget Unit
+FC, Foster Care
+FCI, Family and Children's Index
+FCIS, Foster Care Information System
+FDA, Food and Drug Administration
+FDC, Family Day Care
+FEMA, Federal Emergency Management Agency
+FEP, Front End Processor
+FFA, Foster Family Agency
+FFH, Foster Family Home
+FFP, Federal Financial Participation
+FFS, Fee For Service
+FFY, Federal Fiscal Year
+FG, Family Group
+FGDC, Federal Grographic Data Committee
+FHA, Federal Housing Administration
+FHDU, Foster Home Development Unit
+FICA, Federal Insurance Contribution Act
+FIFO, First In First Out
+FIFRA, Federal Insecticide, Fungicide and Rodenticide Act
+FIPS, Federal Information Processing Standards
+FIRE, Focused IEVS Reconciliation Engine
+FIRM, Financial Information and Resource Management
+FKI, File Keepers Incorporated
+FLPMA, Federal Land Policy and Management Act
+FLRT, Full Load Response Time
+FLSA, Fair Labor Standards Act
+FM, Facility Management
+FMD, Facilities Management Department
+FMD, Financial Management Division
+FMD, Forms Management Division
+FMIS, Financial Management Information System
+FML, Forms Manual Letter
+FMLA, Family and Medical Leave Act
+FMR, Fair Market Rent
+FMS, Financial Management Systems
+FNS, Food and Nutrition Service
+FOCUS, For Computer Users
+FOIA, Freedom Of Information Act
+FPB, Fiscal Policy Bureau
+FPG, Federal Proverty Guideline
+FPL, Federal Poverty Level
+FPS, Family Preservation Services
+FR, Federal Register
+FRC, Family Resource Center
+FRMP, Federal Revenue Maximization Program
+FS, Food Stamps
+FSA, Family Support Act
+FSA, Family Support Administration
+FSE, Food Stamp Eligibles
+FSET, Food Stamp Employment and Training Program
+FSET, Food Stamp Employment Or Training Program
+FSFS, Food Stamp Fiscal Services
+FSID, Face Sheet Identification
+FSIS, Food Stamp Issuance Section
+FSJS, Food Stamp Job Search
+FSMIS, Food Stamp Management Information System
+FSO, Food Stamp Operations
+FSOLIS, Food Stamp On Line Issuance System
+FSPS, Food Stamp Planning Section
+FSQUAD, Food Stamp Operations and Answers Distribution System
+FSS, Family Self Sufficiency
+FSWP, Food Stamp Workfare Project
+FTE, Full Time Equivalent Employee
+FTP, File Transfer Protocol
+FUD, Fear, Uncertainty and Doubt
+FUPC, Fixed Unit Price Contract
+FY, Ficscal Year
+FY, Fiscal Year
+FYI, For Your Information
+GA, General Assistance
+GAAFR, Governmental Accounting Auditing, and Financial Report
+GAAP, Generally Accepted Accounting Principles
+GAIN, Greater Avenues For Independence
+GAO, General Accounting Office
+GAPP, Gang Alternative Prevention Program
+GCAR, Gain Caseload Activity Report
+GCM, Gain Case Manager
+GCM, GROW CASE MANAGER
+GEARS, Gain Employment Activity and Reporting System
+GED, General Equivalency Diploma
+GFOA, Government Finance Officers Association
+GH, Group Home
+GL, General Ledger
+GLA, Group Living Arrangement
+GOLD, General Relief On Line Distribution System
+GPC, Group Performance Control
+GR, General Relief
+GRA, General Relief Administrative Unemployable
+GRE, General Relief Employable
+GREAT, General Relief Eligibility Automated Tracking
+GRHCP, General Relief Health Care Program
+GRI, General Relief Ineligibles
+GRMET, General Relief Medical Evaluation Tracking
+GRML, General Relief Manual Letter
+GRO, General Relief Operations
+GROW, General Relief Opportunities for Work
+GRU, General Relief Unemployable
+GS, Gain Supervisor
+GSC, Gain Services Coordinators
+GSD, General System Design
+GSL, Guaranteed Student Loan
+GSS, Gain Services Supervisor
+GSW, Gain Service Workers
+GSW, Gain Services Worker
+GUI, Graphical User Interface
+GUR, General User Requirements
+HA, Homeless Assistance
+HAN, Health Alert Network
+HAPI, Homeless Assistance Payment Indicator
+HCC, Hearing Control Clerk
+HCCC, Health Care Computer Center
+HCFA, Health Care Financing Administration
+HCMS, Health Care Maintenance System
+HCSWC, Head Clinical Social Work Consultant
+HDP, Homeless Demonstration Project
+HEAP, Home Energy Assistance Program
+HEW, Health Education and Welfare agency
+HH, Household
+HHS, Health and Human Services
+HHSDC, Health and Human Services Data Center
+HIC, Health Insurance Claims
+HICNO, Health Insurance Claims Number
+HIPA, Health Insurance Portability Act
+HIPAA, Health Insurance Portability and Accountability Act
+HIPP, Helath Insurance Premium Payment
+HIT, Hospital Insurance Tax
+HIV, Human Immunodeficiency Virus
+HMD, Homeless Mentally Disabled
+HMO, Health Maintenance Organization
+HNPD, Health and Nutrition Program Division
+HOPWA, Housing Opportunities for Persons with AIDS
+HPCL, Hewlett Packard Page Control Language
+HRD, Human Resources Development
+HRMS, Human Resources Management Systems
+HRP, Housing Relocation Program
+HSA, Human Services Administrator
+HSC, Homeless Steering Committee
+HTTP, HyperText Transfer Protocol
+HUD, department of Housing and Urban Development
+HWDC, Health and Welfare agency Data Center
+IA, Interagency Agreement
+IA, Interim Assistance
+IA, Internal Affairs
+IAB, Information and Assistance Bureau
+IAP, Interim Assistance Program
+IAPDU, Implementation Advance Planning Document Update
+IAR, Interim Assistance Reimbursment
+IBAP, Integrated Business Automation Plan
+IBPS, Integrated Benefit Payment System
+IBR, Initial Budget Request
+ICAN, Interagency council on Child Abuse and Neglect
+ICCP, Internal Control Certification Program
+ICE, Internet Commerce Enabler
+ICF, Intermediate Care Facility
+ICR, Indirect Cost Rate
+ICRP, Indirect Cost Rate Proposal
+ICT, Inter County Transfer
+ID, Identification
+IEVS, Income and Eligibility Verification System
+IF, Innovation Fund
+IFDS, Integrated Fraud Detection System
+IFG, Individual and Family Grant
+IHE, Inadvertent Household Error
+IHSS, In Home Supportive Services
+IIPP, Injury and Illness Prevention Program
+IM, Immediate Need
+IMS, Intensive Manpower Services
+INA, Immigration and Nationality Acts
+INQB, Meds Buy In and Bendex Inquiry
+INS, Immigration And Naturalization Service
+IOG, Interagency Operations Group
+IOS, Input/Output Processor
+IPA, Istitutionlized Property Assessment Program
+IPV, Intentional Program Violation
+IRAP, Indochinese Refugee Assistance Program
+IRCA, Immigration Reform And Control Act Of 1986
+IRIS, Integrated Review And Improvement Study
+IRS, Internal Revenue Service
+IS, Information System
+IS, Information Systems
+ISAA, Information Systems Analyst Aide
+ISAWS, Interim Statewide Automated Welfare System
+ISD, Internal Services Department
+ISDN, Integrated Services Digital Network
+ISD/ITS, Internal Services Department/Information Technology Service
+ISM, In Kind Support And Maintenance
+ISMSC, Information Systems Management Steering Committee
+IT, Information Technology
+ITC, Intermediate Typist Clerk
+ITD, Information Technology Division
+ITDMP, Information Technology Direction and Management Plan
+ITMDQT, Delinquent Vendor Report
+ITOC, Information Technoloigy Oversight Committee
+ITPR, Information Technology Project Report
+ITS, Information Technology Services
+ITSSMA, Information Technology Support Services Master Agreement
+IV, Invoice Voucher
+IV&V, Independent Verification and Validation
+I&ECS, Item And Equipment Control Section
+I&R, Information And Referral
+I/O, Input/Output
+JAD, Joint Application Development
+JAIBG, Juvenile Assistance Incentive Block Grant
+JCL, Job Control Language
+JD, Job Developer
+JOBS, Job Opportunity And Basic Skills Training
+JPA, Joint Powers Authority
+JSA, Job Skills Assessment
+JSPC, Job Skills Preparation Class
+JTPA, Job Training Partnership Act
+JTPD, Job Training Patnership Division
+JUICE, Japanese United Information Community Exchange
+KIHS, Kims Image Handler System
+KIMS, Kodak Image Management System
+KINGAP, Kinship Guardian Assistance Payment
+KOS, Kodak Operating System
+LA COE, Los Angeles County Office Of Education
+LA FAIR, Los Angeles County Food Stamp Automated Issuance And Recording
+LACAS, Los Angeles County Administrative Systems
+LACCD, Los Angeles Community College District
+LACERA, Los Angeles County Employee Retirement Association
+LACHMA, Los Angeles County Hispanic Managers Association
+LACOE, Los Angeles County Office of Education
+LACRA, Los Angeles Community Reinvestment Committee
+LAC/USCMC, Los Angeles County/University Of Southern California Medical Center
+LADOT, Los Angeles Department of Transportation
+LAFLA, Legal Aid Foundation of Los Angeles
+LAHSA, Los Angeles Homeless Services Authority
+PAC, Policy Advisory Council
+LAN, Local Area Network
+LAO, Legislative Analyst's Office
+LAPD, Los Angeles Police Department
+LASA, Los Angeles Services Authority
+LAUSD, Los Angeles Unified School District
+LAVETS, Los Angeles Veterans Education And Training Services
+LBA, Latin Business Association
+LCCR, Leadership Conference on Civil Rights
+LD, Learning Disabilities
+LEADER, Los angeles Eligibility Automated Determination Evaluation and Reporting system
+LEP, Limited English Proficient
+LETC, Labor Employment And Training Corporation
+LEW, Lead Elibility Worker
+LGI, Logicon Geodynamics Inc
+LIFE, Legal Immigration and Family Equity Act (of 2000)
+LIHEAA, Low Income Home Energy Assistance Act
+LIHEAP, Low Income Home Energy Assistance Program
+LLEBG, Local Law Enforcement Block Grant
+LLS, Language Line Services
+LMNA, Labor Market Needs Assessment
+LMW, Lobby Management Worker
+LN, Lotus Notes
+LOD, Line Operations Development
+LOS, LEADER Operation Specialist
+LPR, Legal Permanent Residents
+LRP, Long Range Plan
+LTC, Long Term Care
+LTFSS, Long Term Family Self Sufficiency
+LWO, Living Wage Ordinance
+MACS, Managed Afdc Caseload System
+MAO, Medical Assistance Only
+MAP, Management Appraisal And Performance Plan
+MAP, Maximum Aid Payment
+MAPP, Management Appraisal and Performance Plan
+MAPPER, Maintaining Preparing And Producing Executive Reports
+MAPS, Monthly AFDC Payments System
+MARS, Medi Cal Management Activity Report
+MATURES, Medi Cal Automated Three Phase Unborn Report & Evaluation System
+MBSAC, Minimum Basic Standard Of Adequate Care
+MC CART, Medi Cal Critical Action Review Team
+MCC, MacLaren Children's Center
+MCCA, Medicare Catastrophic Coverage Act
+MCH, Maternal and Child Health
+MDRC, Manpower Demonstration Research Corporation
+MEDS, Medi Cal Eligibility Data System
+MEM, Medi Cal Eligibility Manual
+MEP, Medical Evaluation Provider
+MFBU, Medical Family Budget Unit
+MFG, Maximum Family Grant
+MIA, Medically Indigent Adult
+MIE, Management Information And Evaluation
+MIED, Management Information And Evaluation Division
+ML, Manual Letter
+MMEF, Medi Cal Master Eligibility File
+MMIS, Medicaid Management Information System
+MMR, Monthly Management Report
+MMRS, Metropolitan Medical Response Systems
+MN, Maintenance Need
+MNO, Medically Needy Only
+MOD, Model Operations Development
+MOE, Maintenance of Effort
+MOTP, Medical Occupations Training Program
+MOU, Memorandum Of Understanding
+MPH, Meal Provider For The Homeless
+MPIH, Medi Cal Program Interpretation Handbook
+MPP, Manual Of Policies And Procedures
+MRMIB, Managed Risk Medical Insurance Board
+MRRB, Monthly Reporting/Retrospective Budgeting
+MSARP, Manditory Substance Abuse And Recovery Program
+MSDS, Material Safety Data Sheets
+MSR, Midyear Status Report
+MSSP, Multi Purpose Senior Services Program
+MSW, Master's Degree In Social Work
+MTA, Metropolitan Transit Authority
+MTE, Mobile Telecommunications Equipment
+MWBE, Minority And Women Owned Business Enterprises
+M&O, Maintenance And Operations
+NA, Nonassistance
+NACO, National Association Of Counties
+NAFS, Nonassistance Food Stamp
+NBA, No Benefits Available
+NCA, National Council On Aging
+NCC, Net County Cost
+NCSC, National Computer Security Center
+NDSL, National Direct Student Loan
+NDTF, New DirectionsTask Force
+NEC, Nippon Electric Corporation
+NEI, Non Earned Income
+NET, Non Gain Education And Training
+NEVUV, North Valley Urban Village Initiative
+NGRMC, Incherson Gardens Resident Management Corporation
+NHELP, National Health Law Program, Inc.
+NIC, Network Interface Controller
+NIST, National Institute Of Standards And Technology
+NLAMP, New L.A. Marketing Partnership
+NMO, New Managers' Orientation
+NOA, Notice Of Action
+NOAA, Notice Of Adverse Action
+NONLIHEAA, Non Low Income Home Energy Assistance Act
+NPA, Non Public Assistance
+NSA, Needs Special Assistance
+NSC, Neighborhood Service Center
+NSLP, National School Lunch Program
+OAAC, Office Of Affirmative Action Compliance
+OAL, Office Of Administrative Law
+OAP, Orientation And Appraisal
+OASDI, Old Age Survivors And Disability Insurance (Social Security)
+OBRA, Omnibus Budget Reconciliation Act
+OCD, Office of the Chief Deputy Director
+OCOP, Other County Only Program
+OCR, Optical Charater Recognition
+OCS, Oracle Collaboration Suite
+ODMA, Open Document Management API
+OEM, Office Of Emergency Management
+OES, Office Of Emergency Services
+OFA, Office Of Family Assistance
+OHC, Other Health Coverage
+OHDS, Office Of Human Development Services
+OHR, Office Of Human Resources
+OIG, Office Of Inspector General
+OIT, Office of Information Technology
+OJT, On The Job Training
+OL, On Line Authorization
+OMB, Office Of Management And Budget
+OMCP, Office of Medi Cal Procurement
+ONORDR, On Order Report
+ORB, Operations Review Board
+ORI, Overpayment Recovery Indicator
+OSB, Office of Small Business
+OSI, Open System Interconnection
+OSM, Office of Security Management
+OTI, Out Of Town Inquiry
+O/U/R, Overpayment/Repayment/Underpayment
+PA, Public Assistance
+PACE, Program For Accelerated College Education
+PAFS, Public Assistance Food Stamps
+PATS, Personnel Automated Tracking System
+PBP, Performance Based Pay
+PBPP, Performance Based Pay Plan
+PC, Personal Computer
+PCA, Purchasing and Contract Advocate
+PCAB, Proposed County Administrative Budget
+PCCM, Primary Case Care Management
+PCD, Project Control Document
+PCDC, Personal Computer Data Collection
+PCN, Process Control Number
+PCR, Project Change Request
+PCSP, Personal Care Services Program
+PD, Presumptive Disability
+PD, Program Deputy
+PDA, Personal Digitial Assistant
+PDF, Portable Document Format
+PE, Presumptive Eligibility
+PE, Principal Earner
+PERS, Public Employees Retirement System
+PES, Post Employment Services
+PFS, Parents' Fair Share
+PFSW, Patient Financial Service Workers
+PH, Permanent Housing
+PHM, Public Health Medi Cal
+PHP, Prepaid Health Plan
+PI, Performance Incentives
+PI, Program Interpretation
+PIB, Productivity Investment Board
+PIC, Permanent Issuance Card
+PIC, Private Industry Council
+PICO, Program Integrity Compliance Officer
+PIE, Partnership in Excellence
+PIER, Post Implementation Evaluation Report
+PIF, Productivity Investment Fund
+PIH, Program Interpretation Handbook
+PIN, Personal Identification Number
+PIN, Program Identifier Number
+PIO, Public Information Officer
+PIR, Program Improvement Response
+PIR, Project Initiation Report
+PLUS, Parent Loans For Undergraduate Students
+PM, Program Manager
+PMD, Property Management and Benefits Issuance Division
+PMW, Project Management Workbench
+POD, Programs and Operations Development
+POE, Proof Of Eligibility
+POI, Period Of Ineligibility
+POS, Point of Sale
+POS, Point Of Service
+POS, Purchase of Service
+POWORK, Purchase Order Work Sheet
+PPO, Preferred Provider Organizations
+PQA, Productivity And Quality Awards
+PREP, Preemployment Preparation
+PRIME, Program Review Improvement Monitoring And Evaluation
+PRIS, Photo Registry Identification System
+PRP, Private Resettlement Program
+PRP, Regionally Assigned Prep
+PRS, Performance Requirements Summary
+PRS, Promotion Request System
+PRUCOL, Permanently Residing Under Color Of Law
+PRWORA, Personal Responsibility And Work Opportunity Reconciliation Act Of 1996
+PSA, Public Service Announcement
+PSB, Public Sector Budgeting
+PSE, Public Service Employment
+PSEP, Public Service Employment Program
+PSS, Public Social Services commission
+PSSF, Promoting Safe and Stable Families Act
+PTL, Post Time Limit
+PTS, Pickle Tickler System
+PTS, Program Tracking System
+PVS, Payment Verification System
+PWE, Paid Work Experience
+PWE, Primary Wage Earner
+PWR, Principal Work Registrant
+P&I, Personal And Incidental
+QA, Quality Assurance
+QALOS, Quality Assurance Line Operations Section
+QC, Quality Control
+QC/CA, Quality Control/Corrective Action
+QDWI, Qualified Disabled Working Individual
+QMB, Qualified Medicare Beneficiary
+QP, Qualified Provider
+QPC, Quality And Productivity Commission
+QPMN, Quality And Productivity Managers Network
+QQC, Qualifying Quarters of Coverage
+QSR, Quarterly Status Report
+QWDI, Qualified Working Disabled Individual
+RAD, Rapid Application Development
+RAM, Random Access Memory
+RAS, Remote Access Server
+RAS, Residential Aids Shelter Program
+RBC, Results Based Accountability
+RCA, Refugee Cash Assistance
+RCFE, Residential Care Facility For Elderly
+RD, Renal Dialysis
+RDB, Relational Database
+RDP, Refugee Demonstration Project
+REB, Review and Evaluation Branch
+REEP, Residential Employment Empowerment Project
+REHAB, Rehabilitation Facility
+REP, Refugee Employment Program
+REQAD, Research, Evaluation and Quality Assurance Division
+REQPRO, Requisition Process Report
+RESS, Refugee Employment Services Section
+RFG, Relocation Family Grant
+RFI, Request For Information
+RFP, Request For Proposal
+RFQ, Request For Quote
+RFSQ, Request For Statement of Qualifications
+RIHSN, Regionally Integrated Health Services Network
+RIMA, Risk Insurance Management Agency
+RIPB, Refugee/Immigration Program Branch
+RISP, Reduced Income Supplemental Payment
+RISP, Reduced Income Supplemental Payments
+RITE, Refugee/Imigrant  Training & Employment
+RLB, Restoration Of Lost Benefits
+RMA, Refugee Medical Assistance
+RMR, Regional Market Rates
+RMS, Revenue Management System
+RMTS, Random Moment Timestudy System
+RM&S, Records Management And Supply
+ROI, Return On Investment
+ROM, Read Only Memory
+RPAI, Review Of Proposed Administrative Issuance
+RRB, Railroad Retirement Benefits
+RRP, Refugee Resettlement Program
+RSA, Regional Services Administrator
+RSD, Requirements Specification Document
+RSDHI, Retirement Survivors Disability And Health Insurance
+RSED, Research, Statistics and Evaluation Division
+RTD, Rapid Transit District
+RWPEDA, Regional Workforce Preparation and Economic Development Act Collaborative
+R&B, Room & Board
+R&R, Resource & Referral
+R&R/APP, Resource & Referral/Alternative Payment Program
+R&S, Research & Statistics
+R&SSS, Research And Statistical Services Section
+SA, Single Allocation
+SACSS, Statewide Automated Child Support System
+SACWIS, Statewide Automated Child Welfare Information System
+SAJE, Strategic Actions for a Just Economy
+SALT, State Approved Local Training
+SAP, Standard Accounting Program
+SARS, Severe Acute Respiratory Syndrome
+SAS, Service Information Access System
+SAU, Separate Administrative Unit
+SAVE, Systematic Alien Verification For Entitlement
+SAW, Special Agricultural Worker
+SAWS, Statewide Automated Welfare System
+SAWW, State Average Weekly Wage
+SB, Senate Bill
+SCAAP, State Criminal Alien Assistance Program
+SCAC, Statewide Corrective Action Committee
+SCAG, Southern California Association of Governments
+SCANS, Secretary's Commission on Applying Necessary Skills
+SCAPPS, Shelter Contract Automated Provider Payment System
+SCAQMD, South Coast Air Quality Management District
+SCBA, Southern California Broadcasters Association
+SCC, Supplemental Child Care Program
+SCE, Service Connected Expense
+SCE, Southern California Edison
+SCHIP, State Children's Health Insurance Program
+SCI, State Client Index
+SCO, State Controller's Office
+SCP, Special Circumstances Program
+SDA, Service Delivery Area
+SDE, State Department Of Education
+SDHS, State Department Of Health Services
+SDI, State Disability Insurance
+SDLC, System Development Life Cycle
+SDM, System Development Methodology
+SDP, Structured Development Plans
+SDS, Staff Development Division
+SDSS, State Department Of Social Services
+SDX, State Data Exchange
+SEIU, Services Employees International Union
+SEOG, Supplemental Educational Opportunity Grant
+SEP, State Exchange Program
+SF, Separate Family
+SFAG, State Family Assistance Grant
+SFH, Small Family Home
+SFIS, Statewide Fingerprint Imaging System
+SFY, State Fiscal Year
+SGA, Substantial Gainful Activity
+SGML, Standard Generalized Markup Language
+SIAP, Service Integration Action Plan
+SIB, Service Integration Branch
+SIP, Self Initiated Program
+SIR, Security Incident Report
+SIS, Satisfactory Immigration Status
+SITP, Strategic Information Technology Plan
+SLIAG, State Legalization Impact Assistance Grants
+SLMB, Specified Low Income Medicare Beneficiary
+SMD, Severly Mentally Disoriented
+SNF, Skilled Nursing Facility
+SOC, Share Of Cost
+SOCAT, State Of California Automated Template
+SOP, Statement of Position
+SOW, Statement Of Work
+SPA, Service Planning Area
+SPAC, Service Planning Area Council
+SPARC, Strategic Planning Action And Recommendation Conference
+SPOC, Single Points Of Contact
+SQAS, Services Quality Assurance Section
+SQL, Structured  Query Language
+SRCU, Status Report Clerical Unit
+SRMH, Skid Row Mental Health
+SRS, Supplemental Refugee Services
+SRT, System Reliability Test
+SS, Supportive Services
+SSA, Social Security Administration
+SSD, Specialized Services Division
+SSDI, Social Security Disability Insurance
+SSI, Supplemental Security Income
+SSICMP, Supplemental Security Income Case Management Pilot
+SSIAP, Supplemental Security Income Assistance Program
+SSL, Secure Sockets Layer
+SSLN, Supportive Services Lotus Notes
+SSN, Social Security Number
+SSP, State Supplemental Program
+SSS, Social Services Supervisor
+SSTRP, Support Staff Time Reporting Plan
+STEP, Staff Enrichment Program
+STOP, Safety Through Our Perseverance
+STP, Special Treatment Programs
+STRS, State Teachers Retirement System
+SUA, Standard Utility Allowance
+SUOC, State Use Only Code
+SW, Social Worker
+SYEP, Summer Youth Employment Program
+SYETP, Summer Youth Employment And Training Program
+SYSM, State Electronic Mail System
+S/M, Search/Match
+TA, Technical Architecture
+TAC, Technical Assistance Center
+TACPA, Target Area Contract Prefeence Act
+TANF, Temporary Assistance For Needy Families
+TAO, Totally Automated Office
+TAP, Trust Account Payable
+TCC, Transitional Child Care
+TCL, Transitional Cal Learn
+TCP/IP, Transmission Control Protocol/Internet Protocol
+TCSEC, Trusted Computer System Evaluation Criteria
+TDD, Telecommunication Device for the Deaf
+TDM, Transportation Demand Management
+TEA21, Transportation Efficiency Acti for the 21st Century
+TIATF, Transportation Inter Agency Task Force
+TIC, Temporary Issuance Card
+TJTC, Targeted Jobs Tax Credit
+TL, Time Limit
+TLP, Transitional Living Program
+TMC, Transitional Medi Cal Coverage
+TMTT, Torres Martinez Tribal TANF
+TOE, Type of Expense
+TPL, Third Party Liability
+TPL, Transitional Payment Level
+TPM, Third Party Master
+TPN, Total Parenteral Nutrition
+TPQY, Third Party Query System
+TPS, New Teen Passport to Success
+TR, Tuition Reimbursement
+TRA, Trade Readjustment Allowance
+TRAC, Applicant Tracking & Processing System
+TRARC, Tuition Reimbursement Application Review Committee
+TRO, Temporary Restraining Order
+TS, Temporary Shelter
+TSAB, Technology And Systems Advisory Body
+TSC, Technical Support Center
+TSE, Transitional Subsidized Employment
+TSR, Telephone Service Requisition
+TTC, Treasurer Tax Collector
+TTI, The Training Institute
+TTY, Teletypewriter
+TTY/TDD, Teletype/Telephone Device For The Deaf
+T/TC, Treasurer/Tax Collector
+UCD, Unattended Call Directories
+UIB, Unemployment Insurance Benefits
+UME, Unusual Medical Expense
+UOD, Unisys Operations Division
+UOM, Unit of Measure
+UPS, Uninterruptible Power Supply
+URD, Urban Research Division
+USB, Universal Serial Bus
+USCM, U.S. Conference of Mayors
+USDA, United States Department Of Agriculture
+USMC, United Stated Marine Corps
+UTP, Unshielded Twisted Pair
+UVPS, Uniform Vendor Payment System
+VA, Veterans Administration
+VCC, Verification Control Clerk
+VDT, Video Display Terminal
+VGA, Video Graphics Array
+VIP, Very Important People
+VITA, Volunteer Income Tax Assistance
+VLF, Vehicle License Fee
+VLSI ECI, Very Large Scale Integration Emmiter Cupoled Logic
+VMS, Virtual Management System
+VOA, Volunteers Of America
+VOALA, Volunteers Of America Of Los Angeles
+VOLAG, Voluntary Resettlement Agency
+VRS, Vocational Rehabilitation Services
+VSO, Vendor Service Orders
+WAC, Welfare Advisory Committee
+WACL, Wrap Around Cal Learn
+WAMU, Washington Mutual Bank
+WAN, Wide Area Network
+WATER, Water Awareness, Training, Education, And Recruitment
+WCMIS, Welfare Case Management Information System
+WCP, Worker's Compensation Payments
+WDTIP, Welfare Data Tracking Implementation Project
+WERCS, Work And Exemption Reporting Computer System
+WFI, Welfare Fraud Investigator
+WFLADS, Welfare Fraud Linkage Analysis Database System
+WFP&I, Welfare Fraud Prevention & Investigation
+WFSD, Welfare Financial Services Division
+WHF, Watts Health Foundation
+WHHO, West Hollywood Homeless Organization
+WIA, Workforce Investment Act
+WIB, Workforce Investment Board
+WIC, Welfare & Institutions Code
+WIC, Women/Infants And Children (Supplemental Food Program)
+WIN, Work Incentive Program
+WIN/DEMO, Work Incentive Demonstration Program
+WISDOM, Workflow Information System For District Operational Management
+WISDOM II, Workflow Information System For District Operational Management
+WISE, Widebased Informational Systems Exchange
+WITTS, WCMIS Intranet Transaction Tracking System
+WLCAC, Watts labor Community Action Committee
+WOCS, Work Order Control System
+WPD, Welfare Payments Division
+WR, Work Registration
+WRDP, Welfare Reform Demonstration Project
+WREC, Welfare Recipient Employment Coordinator
+WRL, Welfare Recipient's League
+WRO, Welfare Rights Organization
+WTPY, Wire to Wire Third Party Verfication system
+WTW, Welfare To Work
+WWW, World Wide Web
+W&I, Welfare And Institutions
+W&IC, Welfare And Institutions Code
+eCAPS, electronic Countywide Accounting and Purchasing System
+PHASE, Permanent Housing Assistance SErvices
+BOS, Board of Supervisors
+UAP, Unreimbursed Assistance Pool
+ERTA, Emergency Relief Tracking Application
+CSBG, Community Services Block Grant
+BPEL, Business Process Execution Language
+PECS, Performance Evaluation Control System
+VPN, Virtual Private Network
+VOIP, Voice Over Internet Protocol
+RSS, Really Simple Syndication
+DPSSTATS, Department of Public Social Services Total Accountability Total Success
+L2L, Leader to La net
+CEO, Chief Executive Office
+ESD, Eligibility Systems Division
+EDDATS, Employee Discrimination and Disciplinary Actions Tracking Systems
+CAMS, Case Assignment Management System
+CMS, Contract Management System
+BRL, Biligual Resouce List Utilization Tracking
+TRTS, Translation Requst Tracking System
+DORA, Directory and Online Roster Application
+MCI, Medi Cal Citizenship Imaging
+OWA, Outlook Web Access
+WGAD, Welfare Grant Allotment Determination System
+ORCAS, Office Resources and Collaboration Application Suite
+EDMS, Electronic Document Management System
+EDMC, Electronic Document Management Committee
+EHL, Employee Help Line
+BRU, Bilingual Resource Utilization
+MCRD, Most Commonly Requested Documents
+UAT, User Acceptance Testing
+SARA, Service Area Redistricting Application
+GIS, Geographic Information Systems
+LRS, Leader Replacement System
+EESA, Employee Efficiencies Suggestion Award
+BYOD, Bring Your Own Device
+GPS, Global Positioning System
+URL, Universal Resource Locator
+YBN, Your Benefits Now!
+OS, Operating System
+IVR, Interactive Voice Response
+SSLVPN, Secure Socket Layer Virtual Private Network
+CSC, Customer Service Center
+HTML, HyperText Markup Language
+WDTIP, Welfare Data Tracking Implementation Project
+QR, Quick Response
+SMS, Service Management System
+SRS, Service Request System
+SAS, Statistical Analysis System
+RIS, Refugee Information System
+RFID, Radio Frequency IDentification
+QR, Quarterly Reporting
+PEMS, Property & Emergency Management Section
+PB, Prospective Budgeting
+APEX, APplication EXpress
+MS, MicroSoft
+MMS, Material Management Section
+MAPPS, Medi cal Application Probation Partnership System
+JJP, Juvenile Justice Project
+ITEC, Information Technology Expenditure Control
+HRD, Human Resources Division
+EESA, Employee Efficiency Suggestions Awards
+GCIS, Generic Contract online Invoice System
+CW, CalWorks
+EDATS, Employee Discrimination and Disciplinary Action Tracking
+GAX, General Accounting eXpenditure
+CEO, Chief Executive Officer
+CAMS, Countywide Address Management System
+BI, Business Intelligence
+AX, Application eXtender
+ATS, Appeals and state hearing Tracking System
+DISO, Departmental Information Security Officer
+NAS, Network Attached Storage
+VTC, Video TeleConferencing
+CSOB, Customer Support Operations Branch
+FTSS, Field Technical Support Section
+TSS, Technical Support Section
+FOD, Fiscal Operations Divison
+ERE, Electronic Records Express
+PPC, Payment Pending Case
+CRRS, Case Review and Reporting System
+SAMBA, Services Area Mapping Boundary Application
+JDIC, Justice Data Interface Controller
+AARM, Application Access Request Management
+WCM, Websphere Content Management
+WAS, Work Assignment System
+WHO, Work History Online
+CCR, Change Control and Requests
+ESS, Employee Self Service
+OTS, OverTime System
+BRD, Business Requirements Document
+AEM, Adobe Experience Manager
+WACG, Web Accessibility Content Guidelines

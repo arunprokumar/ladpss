@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    enabled="{Boolean}true"
+    error-page.fallback-name="500"
+    error-page.system-path="/content/dpss/en/errors/404"
+    prop.paths="[/content/dpss/en:errors,/content/dpss/es:errors]"
+    serve-authenticated-from-cache="{Boolean}true"
+    ttl="{Long}300"
+    vanity.dispatch.enabled="{Boolean}true"/>

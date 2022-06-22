@@ -1,0 +1,39 @@
+<!--/*
+*  ***********************************************************************
+*  Adobe CONFIDENTIAL
+*  ___________________
+*
+*  Copyright 2019 Adobe
+*  All Rights Reserved.
+*
+*  NOTICE:  All information contained herein is, and remains the property
+*  of Adobe and its suppliers, if any. The intellectual and
+*  technical concepts contained herein are proprietary to Adobe
+*  and its suppliers and are protected by trade secret or copyright law.
+*  Dissemination of this information or reproduction of this material
+*  is strictly forbidden unless prior written permission is obtained
+*  from Adobe.
+*  ***********************************************************************
+*/-->
+<div data-sly-test="${wcmmode.edit}" class="cq-placeholder"
+	data-emptytext="News List"></div>
+<sly data-sly-test="${properties.listPath}">
+<section data-cmp-results-size="${properties.maxResults}" data-cmp-relative-path="${properties.listPath}" class="news-search__field--view"
+                    id="js-display-diff-view">
+										<div class="search-section">
+											<input id="news-search-input" type="text" name="search" placeholder="${'searchDpssNews' @ i18n}" required="" aria-label="${'searchDpssNews' @ i18n}">
+											<button type="submit" class="btn-search-visible-hidden">
+												<span class="fa fa-search search__icon--position"></span>
+											</button>
+										</div>
+                    <div class="news__archive-list cmp-news-search-list__item-group">
+                    </div>
+                    <div classs="is--hidden" class="cmp-news-search-empty__msg" id="js-news-searchResults-endData">
+                        <p>${'noMoreResults' @ i18n}</p>
+                    </div>
+                </section>
+
+                <section class="news-search__results--footer">
+                    <button>${'loadMore' @ i18n}<span class="fa fa-chevron-down"></span></button>
+                </section>
+</sly>

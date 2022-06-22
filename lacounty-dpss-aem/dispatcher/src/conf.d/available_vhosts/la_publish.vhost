@@ -1,0 +1,101 @@
+## Collect any enviromental variables that are set in /etc/sysconfig/httpd
+## Collect the dispatchers number
+PassEnv DISP_ID
+
+<VirtualHost *:80>
+	ServerName	publish
+	## Put names of which domains are used for your published site/content here
+	ServerAlias	${PUBLISH_DEFAULT_HOSTNAME} aem-test.dpss.lacounty.gov dpss.lacounty.gov
+	## Use a doc root that matches what's in the /etc/httpd/conf/publish-farm.any
+	DocumentRoot	${PUBLISH_DOCROOT} 
+	## Add header breadcrumbs for help in troubleshooting
+	<IfModule mod_headers.c>
+			Header always add X-Dispatcher ${DISP_ID}
+			Header always add X-Vhost "la www"
+			Header merge X-Frame-Options SAMEORIGIN "expr=%{resp:X-Frame-Options}!='SAMEORIGIN'"
+			Header merge X-Content-Type-Options nosniff "expr=%{resp:X-Content-Type-Options}!='nosniff'"
+            Header always set Strict-Transport-Security "max-age=63072000;"
+            Header always set X-XSS-Protection "1; mode=block"
+		#### Make sure proxies don't deliver the wrong content
+		Header append Vary User-Agent env=!dont-vary
+        Header set Content-Security-Policy "frame-ancestors 'self'; base-uri 'self';"
+        #Header to set a long TTL for different file types(Modify on Production as per the content change frequency)
+
+         # 15 MINUTES for your real html files
+
+          Header set Cache-Control "max-age=900, must-revalidate"
+
+        # 1 Month for all your static assets
+        <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+                Header set Cache-Control "max-age=2592000, public"
+        </filesMatch>
+
+         # 1 DAYS for rss feeds and robots
+        <filesMatch ".(xml|txt)$">
+                Header set Cache-Control "max-age=86400, public, must-revalidate"
+        </filesMatch>
+         <filesMatch ".(js|css)$">
+                Header append Vary: Accept-Encoding
+        </filesMatch>
+
+	</IfModule>
+	<Directory />
+		## Update /etc/sysconfig/httpd with setting the PUBLISH_WHITELIST_ENABLED from 0 or 1 to enable or disable ip restriction rules
+		<If "${PUBLISH_WHITELIST_ENABLED} == 1">
+			Include /etc/httpd/conf.d/whitelists/*_whitelist.rules
+		</If>
+		<IfModule disp_apache2.c>
+			## Some items cache with the wrong mime type
+			## Use this option to use the name to auto-detect mime types when cached improperly
+			ModMimeUsePathInfo On
+			## Use this option to avoid cache poisioning
+			## Sling will return /content/image.jpg as well as /content/image.jpg/ but apache can't search /content/image.jpg/ as a file
+			## Apache will treat that like a directory.  This assures the last slash is never stored in cache
+			DirectorySlash Off
+			## Enable the dispatcher file handler for apache to fetch files from AEM
+			SetHandler dispatcher-handler
+		</IfModule>
+		Options FollowSymLinks
+		AllowOverride None
+		#### Insert filter
+		SetOutputFilter DEFLATE
+		#### Don't compress images
+		SetEnvIfNoCase Request_URI \
+		\.(?:gif|jpe?g|png)$ no-gzip dont-vary
+	</Directory>
+	<Directory "${PUBLISH_DOCROOT}">
+		AllowOverride None
+		Require all granted
+	</Directory>
+	<IfModule disp_apache2.c>
+		## Enabled to allow rewrites to take affect and not be ignored by the dispatcher module
+		DispatcherUseProcessedURL	1
+		## Default setting to allow all errors to come from the aem instance
+		DispatcherPassError		1
+	</IfModule>
+	<IfModule mod_rewrite.c>
+		ReWriteEngine	on
+		LogLevel warn rewrite:${DISP_LOG_LEVEL}
+		##Global rewrite include
+		Include /etc/httpd/conf.d/rewrites/base_rewrite.rules
+		Include /etc/httpd/conf.d/rewrites/security_rewrite.rules
+		Include /etc/httpd/conf.d/rewrites/la_rewrite.rules
+		## Update /etc/sysconfig/httpd with setting the PUBLISH_FORCE_SSL from 0 or 1 to enable or disable enforcing SSL
+		<If "${PUBLISH_FORCE_SSL} == 1">
+			Include /etc/httpd/conf.d/rewrites/xforwarded_forcessl_rewrite.rules
+		</If>
+	</IfModule>
+
+SetEnvIfNoCase Request_URI "^/([^/]+)/([^/]+)" LOCALE=$2
+<If "tolower(%{ENV:LOCALE}) in {'en', 'es'}">
+    ErrorDocument 404 /%{ENV:LOCALE}/errors/404.html
+    ErrorDocument 403 /%{ENV:LOCALE}/errors/403.html
+    ErrorDocument 500 /%{ENV:LOCALE}/errors/500.html
+</If>
+<Else>
+    ErrorDocument 404 /en/errors/404.html
+    ErrorDocument 403 /en/errors/403.html
+    ErrorDocument 500 /en/errors/500.html
+</Else>
+
+</VirtualHost>

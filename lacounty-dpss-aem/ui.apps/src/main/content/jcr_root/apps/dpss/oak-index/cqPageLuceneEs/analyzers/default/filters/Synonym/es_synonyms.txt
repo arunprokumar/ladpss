@@ -1,0 +1,100 @@
+Increíble, improbable, fabuloso, maravilloso, fantástico, asombroso, extraordinario, inverosímil
+Increíble, asombroso, sorprendente, impresionante, alucinante, maravilloso, espectacular, genial, apasionante, fascinante, extraordinario, magnifico, inverosímil
+Ira, enfurecer furia, ortiga, exasperación, inflamar, enloquecimiento, enojo, bronca, cólera
+Ira, enojo, rabia, indignación, cólera, furia, odio, enfado, coraje, furor
+Enojado, furioso, enfurecido, excitado, colérico, indignado, exasperado, enfadado, colérico, airado, malhumorado, trasverso
+Enojado, enfadado, furioso, irritado, molesto, iracundo, enfurecido, encolerizado, indignado, airado, airada, colérico, rabioso, sulfurado, disgustado
+Responder, replicar, reconocer, reaccionar, Respuesta, contestar, soluciones, réplica
+Preguntar, pedir, plantear, indagar, consultar, buscar información, formular una pregunta, exigir, solicitar, esperar, consultar, interrogar, examinar, cuestionario, averiguar
+Horrible, terrible, abominable, malo, pobre, desagradable, deplorable, asqueroso, atroz, nefasto, detestable, espantoso, horroroso, pésimo, horrendo, espeluznante 
+Malo, malvado, inmoral, corrupto, pecaminoso, depravado, podrido, contaminado, estropeado, contaminado, dañino, perjudicial, desfavorable, inferior, imperfecto, deficiente, defectuoso, inadecuado, inapropiado, desagradable, cruzado, desagradable, antipático, irascible, horrible, atroz, escandaloso, infame, incorrecto, nocivo, siniestro, pútrido, podrido, sarcástico, deplorable, triste, asqueroso, nefasto, detestable, despreciable, sucio, rango, execrable
+Hermosa, bonita, encantadora, atractiva, deslumbrante, espléndida, magnífica, deslumbrante, elegante, fina, exquisita, estética, agradable, bien formada, delicada, deslumbrante, gloriosa, celestial, resplandeciente, radiante, brillante, floreciente, magnifico
+Comience, abra, inicie, inaugure, origine, empiece, ponga en marcha, abrir 
+Comenzar, iniciar, emprender, iniciarse, dar inicio
+Grande, enorme, inmenso, gigantesco, vasto, colosal, considerable, grandioso, alto, sustancial, astronómico, amplio, expansivo, espacioso, robusto, tremendo, titánico
+Valiente, intrépido, heroico, galante, mezquino, audacia, osadía, atrevimiento
+Romper, fracturarse, romperse, aplastarse, destruirse, chocar, demoler, atomizar, quebrar, interrumpir, cortar, descomponer
+Brillante, reluciente, radiante, vívido, colorido, luminoso, incandescente, inteligente, conocedor, ingenioso, intelectual, genial
+Tranquilo, silencioso, pacífico, quieto, sereno, suave, compuesto, recogido, sensato, no excitado, desprendido, callado, reservado
+Ven, acércate, avanza, cerca, llegar, aterrizar, alcanzar
+Fresco, templado, frío, helado, invernal, gélido
+Torcido, doblado, retorcido, curvado, enganchado, en zigzag, deshonesto, encorvado, pervertido, deformado, sinuoso, fraudulento, chueco, sucio
+Llorar, gritar, rugir, sollozar, vocear
+Cortar, pinchar, mellar, rebajar, tallar, reducir amputar, aislar, abrir, parar, recortar, rebanar, interrumpir, rebajar
+Peligroso, arriesgado, incierto, inseguro, nocivo, nocivo, grave, arriesgado y tóxico
+Oscuro, sombrío, apagado, turbio, sombreado, sin sol, negro, triste, tenebroso
+Decidir, determinar, resolver, elegir, resolver, less common: determinar, resolver
+Definido, cierto, seguro, positivo, determinado, claro, distinto, obvio, concreto, preciso
+Delicioso, sabroso, apetitoso, agradable, exquisito, rico, placentero
+Describir, representar, caracterizar, narrar, relacionar, contar, informar, registrar, trazar, relatar
+Destruir, destrozar, derrotar, romper, arruinar, demoler, arrasar, desperdiciar, terminar, extinguir, acabar, exterminar, anular
+Diferencia, desacuerdo, inequidad, contraste, disimilitud, incompatibilidad, controversia, brecha
+Hacer, ejecutar, promulgar, llevar a cabo, terminar, concluir, efectuar, lograr, realizar, alcanzar
+Aburrido, apagado, opaco, cansado, aburrido, poco interesante, lento, sin imaginación, sin vida, muerto, insensible, tedioso, indiferente, inexpresivo, simple, monótono, triste
+Ansioso, entusiasta, ferviente, involucrado, interesado, inquieto, angustiado, desasosegado, impaciente
+Finalizar, detener, concluir, cerrar, cesar, descontinuar, ultimar, acabar, culminar, terminar
+Disfrutar, apreciar, deleitarse, saborear, devorar, gozar, divertirse, pasarla bien
+Explicar, elaborar, aclarar, definir, interpretar, justificar, aclarar, ilustrar
+Justo, imparcial, objetivo, sin prejuicios, honesto, correcto, justificado, virtuoso, honrado
+Caída, descenso, bajar, disminución
+Falso, fraudulento, infundado, erróneo, engañoso, falaz, desleal, engaño, postizo
+Famoso, conocido, renombrado, celebrado, eminente, ilustre, distinguido, notado, afamado, ilustre, destacado, celebre
+Rápido, pronto, veloz, apresurado, ágil, mercurial, con prisa, apresurada, expedita, como un destello, ligero
+Robusto, corpulento, carnoso, lleno, grueso, voluminoso
+Miedo, susto, temor, alarma, consternación, ansiedad, asombro, horror, pánico, aprensión
+Vuela, huye, flota, desliza, desnata, navega, pilotear, huir, enarbolar, izar
+Divertido, humorístico, divertido, gracioso, cómico, risible, chistoso, entretenido
+Obtenga, adquiera, asegure, gane, busque, encuentre, anote, acumule, atrape, recolecte, recoja, acepte, pase, recupere, salvar
+Ir, retroceder, partir, desvanecerse, desaparecer, moverse, viajar, continuar, irse, salir, andar, encabezar, acudir, dirigir
+Bueno, excelente, fino, superior, maravilloso, calificado, apto, adecuado, capaz, generoso, amable, complaciente, agradable, satisfactorio, de buen comportamiento, obediente, honorable, confiable, seguro, favorable, rentable, ventajoso, justo, conveniente, útil, válido, genuino, amplio, saludable, estimable, beneficioso, espléndido, excelente, noble, digno, de primer nivel, grandioso, excelente, soberbio, respetable, edificante
+Grande, notable, digno, distinguido, notable, grandioso, considerable, poderoso, mucho, amplio, extenso, estupendo, importante, enorme
+impropio, vulgar, indignante, extremo, grave, vergonzoso, obsceno, bajo, enorme
+Feliz, contento, satisfecho, encantado, eufórico, alegre, extático, jubiloso, cosquilleado, gratificado, dichoso, afortunado
+Odio, desprecio, aborrecimiento, desagrada, disgusto, desaprobación, abominación, detesto
+Tener, mantener, poseer, contener, adquirir, ganar, mantener, creer, soportar, engendrar, ocupar, absorber, llenar, disfrutar, padecer
+Ayuda, asistencia, apoyo, aliento, regreso, espera, servicio, alivio, socorro, beneficio, amistad, apoyo, auxilio
+Ocultar, cubrir, enmascarar, capa, camuflaje, pantalla, cubierta, velo, esconder, tapar, cubrir, disimular
+Date prisa, corre, acelera, urge, bulle, poner velocidad
+Daño, lesión, herida, angustia, aflicción, dolor, avería, desperfecto, mal, perjurio
+Idea, pensamiento, concepto, noción, opinión, plan, visión, creencia, ocurrencia
+Importante, necesario, vital, crítico, indispensable, valioso, esencial, significativo, primario, principal, considerable, famoso, distinguido, notable, conocido, de categoría, destacado, trascendente
+Interesante, fascinante, cautivador, agudo, brillante, animado, atractivo, acogedor, intrigante, provocativo, aunque provocador, desafiante, inspirador, envolvente, conmovedor, excitante, tentador, emocionante, entretenido, picante, alegre, absorbente, apasionante, deslumbrante, cautivador, fascinante, curioso, encantador, misterioso, seductor
+Mantener, retener, preservar, sostener, conservar, apoyar, contener
+Destruir, cancelar, abolir acabar
+Perezoso, indolente, inactivo, lento, ocioso, relajado
+Pequeño, pequeño, diminuto, camarones, enano, miniatura, insignificante, exiguo, estrecho, limitado, diminuto, microscópico, leve
+Mire, estudie, busque, contemple, examine, escudriñe, inspeccione, observe, perciba, espiar, ver, descubrir, notar, reconocer, mirar, explorar
+Amar, admirar, estimar, imaginar, cuidar, apreciar, atesorar, adorar, saborear
+Hacer, crear, originar, inventar, engendrar, formar, construir, diseñar, fabricar, producir, construir, desarrollar, efectuar, ejecutar, componer, realizar, lograr, ganar, obtener, adquirir
+Marcar, etiquetar, precio, boleto, impresionar, efecto, rastreo, impresión, sello, marca, signo, nota, prestar atención, aviso, designar
+Traviesa, juguetona, pícara, deportiva, payasadas, bobadas, travesuras
+Cambiante, temperamental, de mal genio, sombrío, malhumorado, hosco, mohoso, irritable, rencoroso, sensible, inconstante, mudable
+Moverse, caminar, avanzar, arrastrarse, gatear, pulgadas, empujar,  trotar, perder el tiempo, penosamente, deambular, enchufar, caer, madera, rastro, retraso, correr, sprint, viaje, super aprisa, rabo alto, racha, zancada, rasgadura, brisa, batir, apresurarse, dardo, perno, tirar, corretear, salir pitando, salir aprisa, largarse, escabullirse, carrera, persecución, acelerar, apresurarse, joroba, galope, podar, acelerar, agitar, mover, desplazarse, deambular, viajar, emigrar, montar, girar, deslizarse, navegar, pasear, cojear, deambular, tambalearse, remar, saltando, regateo, meandro, comercio ambulante, anadear, bamboleo, ritmo, arrogancia, paseo marítimo, estocada
+Aseado, limpio, ordenado, recortado, elegante, bien organizado, súper, deseable, bien cuidado, bien proporcionado
+Nuevo, fresco, único, original, inusual, novedoso, moderno, actual, reciente
+Viejo, débil, frágil, antiguo, envejecido, usado, desgastado, deteriorado, desigual, desvaído, desglosado, antiguo, anticuado, pasado de moda, veterano, maduro, venerable, primitivo, tradicional, arcaico, convencional, acostumbrado, rancio, mohoso, obsoleto, extinto
+Parte, porción, acción, pieza, asignación, sección, fracción, fragmento
+Lugar, espacio, área, parcela, región, ubicación, situación, posición, residencia, vivienda, conjunto, sitio, estación, estado
+Plan, trama, esquema, diseño, dibujo, mapa, diagrama, procedimiento, arreglo, intención, dispositivo, artilugio, método, forma, plano
+Popular, aprobado, aceptado, favorito, celebrado, común, actual
+Predicamento, dilema, encurtido, problema, apuro, mancha, raspado, atasco
+Poner, colocar, establecer, adjuntar, establecer, asignar, mantener, guardar, reservar, efectuar, lograr, hacer, construir
+Tranquilo, silencioso, quieto, silencioso, mudo, tranquilo, pacífico, reparador
+Correcto, exacto, fáctico, verdadero, bueno, honesto, recto, legal, moral, apropiado, adecuado, apto, legal, justo
+Correr, acelerar, apresurarse, escapar, fugarse, huir
+Decir, afirmar, expresar, opinar
+Contar, informar, notificar, aconsejar, relacionar, narrar, explicar, revelar, divulgar, declarar, ordenar, ofertar, iluminar, instruir, insistir, enseñar, entrenar, dirigir, emitir, comentar, conversar, hablar, afirmar, suponer, pronunciar, negar, expresar, verbalizar, voz, articular, pronunciar, entregar, transmitir, impartir, afirmar, declarar, alegar, murmurar, susurrar, suspirar, exclamar, gritar, cantar, gritar, silbar gruñido, resoplido, rugido, bramido, trueno, boom, grito, chillido, graznido, quejido, filosofar, frenillo labial, arrastrar las palabras, farfullar, protesta, anunciar, jurar, votar, contenido, asegurar, negar, disputar, revelar, mostrar, exponer, descubrir, relacionar, narrar, informar, aconsejar, explicar, divulgar, declarar, ordenar, ofertar, repetir 
+Asustado, alarmado, aterrorizado, temeroso, desconcertado, inseguro, tímido, asustadizo, nervioso, inquieto, preocupado, molesto, perturbado, horrorizado, conmocionado, petrificado, embrujado, tímido, encogiéndose, tembloroso, estupefacto, paralizado, aturdido, aprensivo
+Mostrar, exhibir, presentar, anotar, señalar, indicar, explicar, revelar, demostrar, exponer
+Lento, sin prisas, gradual, pausado, tarde, atrás, tedioso, flojo
+Detener, quedarse, pausar, interrumpir, concluir, finalizar, dejar de fumar
+Historia, cuento, mito, leyenda, fábula, hilo, cuenta, narrativa, crónica, épica, salvia, anécdota, registro, memoria
+Extraño, peculiar, inusual, desconocido, poco común, raro, extravagante, curioso, único, exclusivo, irregular
+Tomar, sostener, atrapar, agarrar, ganar, capturar, adquirir, elegir, seleccionar, preferir, eliminar, robar, levantar, robar, comprometer, hechizar, comprar, retraer, recuperar, asumir, ocupar, consumir
+Pensar, juzgar, considerar, asumir, creer, considerar, contemplar, reflexionar, mediar
+Problemas, angustia, ansiedad, preocupación, miseria, dolor, peligro, desastre, pena, desgracia, dificultad, preocupación, dolores, molestias, esfuerzo
+Verdadero, exacto, correcto, adecuado, preciso, exacto, válido, genuino, real, confiable, constante, leal, confiable, sincero, firme
+Feo, horrible, espantoso, aterrador, impactante, horrible, desagradable, monstruoso, aterrador, asqueroso, espeluznante, llano, hogareño, repulsivo, repugnante
+Infeliz, miserable, incómodo, desgarrado, desafortunado, pobre, desanimado, triste, deprimido, abatido, melancólico, sombrío, desanimado
+Usar, emplear, utilizar, agotar, consumir, hacer ejercicio
+Incorrecto, mal, falso, inexacto, equivocado, erróneo, inadecuado, erróneo, incorrecto, inoportuno

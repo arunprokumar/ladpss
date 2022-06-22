@@ -1,0 +1,20 @@
+<sly data-sly-use.footerModel="com.adobe.aem.lacounty.dpss.core.models.FooterModel"/>
+<footer class="footer__content">
+    <div class="container">
+        <div class="footer__seal">
+            <img src="${footerModel.footerConfigurations.logo}" alt="${footerModel.footerConfigurations.logoAltTxt}">
+        </div>
+        <div class="footer__copyRight">
+            <p class="footer__copyRightText">${footerModel.footerConfigurations.copyRightTxt @ context='html'} </p>
+        </div>
+        <ul data-sly-list.link="${footerModel.footerConfigurations.links}" class="footer__list">
+            <li data-sly-test="${link.linkText}" class="nav__item"><a href="${link.linkUrl @ context='uri'}" target="${link.openInNewTab ?'_blank' :''}"  class="nav__link" aria-label="${link.linkText}">${link.linkText}</a></li>
+            <li data-sly-test.isLast="${! linkList.last}">|</li>            
+        </ul>
+        <ul  data-sly-list.socialIcon="${footerModel.footerConfigurations.socialIcons}" class="social__list">
+            <li data-sly-test="${socialIcon.fontAwesomeKey}" class="social__item"><a href="${socialIcon.socialLinkUrl}"  target="${socialIcon.openInNewTab ?'_blank' :''}" aria-label="${socialIcon.accessbilityLabel}">
+                    <span class="${socialIcon.fontAwesomeKey}"></span>
+                </a></li>            
+        </ul>
+    </div>
+</footer>
